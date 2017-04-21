@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+  	<parameter name="browser" value="chrome" />
+	<parameter name="environment" value="qa" />
+	<listeners>
+		<listener class-name="test.template.utils.SendEmailReporter"></listener>
+	</listeners>
+	
+	<test name="Test Baidu">
+		<classes>
+			<class name="test.template.cases.BaiduSearchTestCase">
+			   <methods>
+					<include name="test"></include>
+			   </methods>
+			</class>
+		</classes>
+	</test>
+	
+	 	
+</suite>
