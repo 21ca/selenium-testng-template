@@ -27,7 +27,7 @@ public class BaseTestCase {
 	@Parameters({ "browser", "url", "environment" })
 	public void setup(@Optional String browser, @Optional String url, @Optional String environment) throws Exception {
 		if (browser == null) { // Default FireFox
-			browser = "ff";
+			browser = "firefox";
 		}
 
 		if (url != null) { // Remote browser
