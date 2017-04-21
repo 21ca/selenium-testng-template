@@ -21,19 +21,20 @@ public class Browser {
 	}
 
 	public static void setupInternetExplorer() {
-		InternetExplorerDriverManager.getInstance().setup();
+		InternetExplorerDriverManager.getInstance().useTaobaoMirror().setup();
 		drivers.set(new InternetExplorerDriver());
 		drivers.get().manage().window().maximize();
 	}
 
 	public static void setupFireFox() {
-		FirefoxDriverManager.getInstance().setup();
+		FirefoxDriverManager.getInstance().useTaobaoMirror().version("0.14").setup();
+
 		drivers.set(new FirefoxDriver());
 		drivers.get().manage().window().maximize();
 	}
 
 	public static void setupChrome() {
-		ChromeDriverManager.getInstance().setup();
+		ChromeDriverManager.getInstance().useTaobaoMirror().setup();
 		drivers.set(new ChromeDriver());
 	}
 

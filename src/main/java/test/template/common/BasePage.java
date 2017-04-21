@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * The base page
- * 
+ *
  */
 public abstract class BasePage {
 	protected RemoteWebDriver driver;
