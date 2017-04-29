@@ -34,13 +34,13 @@ enum Environment {
 			props = new Properties();
 
 			try {
-				props.load(Environment.class.getResourceAsStream("/test_data.properties"));
+				props.load(Environment.class.getResourceAsStream("/config.properties"));
 			} catch (IOException e) { 
 				e.printStackTrace();
 			}
 			try {
 				if (env != null) {
-					props.load(Environment.class.getResourceAsStream("/test_data_" + env + ".properties"));
+					props.load(Environment.class.getResourceAsStream("/config_" + env + ".properties"));
 				}
 			} catch (IOException e) { 
 				e.printStackTrace();

@@ -47,6 +47,8 @@ public class Browser {
 	}
 	
 	public static void quit() {
-		drivers.get().quit();
+		if (drivers.get() != null) {
+			drivers.get().quit();	
+		}
 	}
 }
