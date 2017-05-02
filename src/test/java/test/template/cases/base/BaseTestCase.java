@@ -7,7 +7,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Properties;
 
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,8 +16,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-import test.template.common.Browser;
-import test.template.common.Settings;
+import test.template.common.Config;
 import test.template.utils.TakeScreenshotOnFailureListener;
 
 @Listeners(TakeScreenshotOnFailureListener.class)
@@ -34,35 +32,10 @@ public class BaseTestCase {
 	@Parameters({ "browser", "url", "environment" })
 	public void setup(@Optional String browser, @Optional String url, @Optional String environment) throws Exception {
 		loadTestData();
-	
-		if (browser != null) {
-			if (url != null) { // Remote browser
-				if (browser.equalsIgnoreCase("ie")) {
-					Browser.setupRemoteWebDriver(url, DesiredCapabilities.internetExplorer());
-				} else if (browser.equalsIgnoreCase("firefox")) {
-					Browser.setupRemoteWebDriver(url, DesiredCapabilities.firefox());
-				} else if (browser.equalsIgnoreCase("chrome")) {
-					Browser.setupRemoteWebDriver(url, DesiredCapabilities.chrome());
-				} else {
-					log.error("Browser not support: " + browser);
-				}
-			} else { // Local browser
-				if (browser.equalsIgnoreCase("ie")) {
-					Browser.setupInternetExplorer();
-				} else if (browser.equalsIgnoreCase("firefox")) {
-					Browser.setupFireFox();
-				} else if (browser.equalsIgnoreCase("chrome")) {
-					Browser.setupChrome();
-				} else {
-					log.error("Browser not support: " + browser);
-				}
-			}
-		}
-		
-		Settings.setupEnvironment(environment);
-		log.info("Environment of Automation test case running:" + Settings.getEnvironment());
+		Config.setupWebDriver(browser, url);
+		Config.setupEnvironment(environment);
 
-		System.out.println("@BeforeTest");
+		log.info("Setup web driver and environment.");
 	}
 
 	private void loadTestData() throws IOException {
@@ -85,12 +58,14 @@ public class BaseTestCase {
 
 	@AfterTest
 	public void tearDown() {
-		System.out.println("@@AfterTest");
-		Browser.quit();
+		System.out.println("Test complete");
+		if (Config.driver() != null) {
+			Config.driver().quit();	
+		}
 	}
 
-	protected RemoteWebDriver getDriver() {
-		return Browser.getDriver();
+	protected RemoteWebDriver driver() {
+		return Config.driver();
 	}
 	
 	protected String data(String key) {

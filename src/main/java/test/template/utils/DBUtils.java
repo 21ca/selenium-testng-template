@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import test.template.common.Settings;
+import test.template.common.Config;
 
 public class DBUtils {
 
@@ -23,14 +23,14 @@ public class DBUtils {
 			prefix = "";
 		}
 
-		String driver = Settings.getProperty(prefix + "jdbc_driver");
+		String driver = Config.getProperty(prefix + "jdbc_driver");
 		if (driver == null) {
-			driver = Settings.getProperty("jdbc_driver"); // Use the default
+			driver = Config.getProperty("jdbc_driver"); // Use the default
 															// driver
 		}
-		String url = Settings.getProperty(prefix + "jdbc_url");
-		String user = Settings.getProperty(prefix + "jdbc_user");
-		String password = Settings.getProperty(prefix + "jdbc_password");
+		String url = Config.getProperty(prefix + "jdbc_url");
+		String user = Config.getProperty(prefix + "jdbc_user");
+		String password = Config.getProperty(prefix + "jdbc_password");
 		return getConnection(driver, url, user, password);
 	}
 

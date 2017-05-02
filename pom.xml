@@ -47,11 +47,6 @@
 			<version>1.4.01</version>
 		</dependency>
 		<dependency>
-			<groupId>commons-lang</groupId>
-			<artifactId>commons-lang</artifactId>
-			<version>2.6</version>
-		</dependency>
-		<dependency>
 			<groupId>dom4j</groupId>
 			<artifactId>dom4j</artifactId>
 			<version>1.6.1</version>
@@ -65,6 +60,11 @@
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
 			<version>1.6.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.paypal.selion</groupId>
+			<artifactId>SeLion-DataProviders</artifactId>
+			<version>1.2.0</version>
 		</dependency>
 	</dependencies>
 	

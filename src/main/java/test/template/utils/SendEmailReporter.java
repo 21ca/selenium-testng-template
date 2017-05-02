@@ -10,7 +10,7 @@ import org.testng.ISuite;
 import org.testng.reporters.EmailableReporter2;
 import org.testng.xml.XmlSuite;
 
-import test.template.common.Settings;
+import test.template.common.Config;
 
 public class SendEmailReporter extends EmailableReporter2 {
 	
@@ -34,20 +34,20 @@ public class SendEmailReporter extends EmailableReporter2 {
 
 	private void sendEmail(String content) throws Exception {
 		System.out.println("Send Email:");
-		if (!Settings.getBoolean("email.enabled")) {
+		if (!Config.getBoolean("email.enabled")) {
 			return;
 		}
 		
 		HtmlEmail email = new HtmlEmail();
-		for (String receipt : Settings.getArrayProperty("report.email.recipients")) {
+		for (String receipt : Config.getArrayProperty("report.email.recipients")) {
 			email.addTo(receipt);
 		}
-		email.setFrom(Settings.getProperty("report.email.from"));
-		email.setSubject(Settings.getProperty("report.email.subject"));
+		email.setFrom(Config.getProperty("report.email.from"));
+		email.setSubject(Config.getProperty("report.email.subject"));
 		email.setHtmlMsg(content);
-		email.setHostName(Settings.getProperty("report.email.host"));
-		email.setAuthentication(Settings.getProperty("report.email.username"), 
-				Settings.getProperty("report.email.password"));
+		email.setHostName(Config.getProperty("report.email.host"));
+		email.setAuthentication(Config.getProperty("report.email.username"), 
+				Config.getProperty("report.email.password"));
 		email.send();
 	}
 	

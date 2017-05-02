@@ -9,10 +9,7 @@ import org.slf4j.LoggerFactory;
  *
  */
 public abstract class BasePage {
-	protected RemoteWebDriver driver;
+	protected RemoteWebDriver driver = Config.driver();
 	protected Logger log = LoggerFactory.getLogger(this.getClass());
 	
-	public BasePage(RemoteWebDriver driver) {
-		this.driver = driver;
-	}
 }

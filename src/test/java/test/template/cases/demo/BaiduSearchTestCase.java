@@ -1,4 +1,4 @@
-package test.template.cases;
+package test.template.cases.demo;
 
 import org.testng.annotations.Test;
 
@@ -7,11 +7,10 @@ import test.template.utils.SeleniumUtils;
 
 public class BaiduSearchTestCase extends BaseTestCase {
 	
-	@Test
+	@Test()
 	public void test() {
-		getDriver().get("http://www.baidu.com");
-		SeleniumUtils.takeScreenShot(getDriver());
-
+		driver().get("http://127.0.0.1/");
+		SeleniumUtils.takeScreenShot(driver());
 	}
-	
+
 }
