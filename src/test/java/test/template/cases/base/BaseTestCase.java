@@ -88,7 +88,11 @@ public abstract class BaseTestCase {
 	 * @return
 	 */
 	protected String data(String key) {
-		return testDataProps.getProperty(key);
+		String value = testDataProps.getProperty(key);
+		if (value == null) {
+			value = Config.getProperty(key);
+		}
+		return value;
 	}
 	
 	/**
