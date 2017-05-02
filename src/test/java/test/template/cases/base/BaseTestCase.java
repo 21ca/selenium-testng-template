@@ -1,8 +1,10 @@
 package test.template.cases.base;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Properties;
@@ -16,11 +18,17 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
+import com.paypal.selion.platform.dataprovider.DataProviderFactory;
+import com.paypal.selion.platform.dataprovider.DataResource;
+import com.paypal.selion.platform.dataprovider.SeLionDataProvider;
+import com.paypal.selion.platform.dataprovider.impl.InputStreamResource;
+import com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource;
+
 import test.template.common.Config;
 import test.template.utils.TakeScreenshotOnFailureListener;
 
 @Listeners(TakeScreenshotOnFailureListener.class)
-public class BaseTestCase {
+public abstract class BaseTestCase {
 	private Properties testDataProps = new Properties();
 	protected Logger log = LoggerFactory.getLogger(this.getClass());
 
@@ -32,10 +40,16 @@ public class BaseTestCase {
 	@Parameters({ "browser", "url", "environment" })
 	public void setup(@Optional String browser, @Optional String url, @Optional String environment) throws Exception {
 		loadTestData();
-		Config.setupWebDriver(browser, url);
+		if (isBrowserUsed()) {
+			Config.setupWebDriver(browser, url);
+		}
 		Config.setupEnvironment(environment);
 
 		log.info("Setup web driver and environment.");
+	}
+	
+	protected boolean isBrowserUsed() {
+		return true;
 	}
 
 	private void loadTestData() throws IOException {
@@ -68,7 +82,33 @@ public class BaseTestCase {
 		return Config.driver();
 	}
 	
+	/**
+	 * 
+	 * @param key sssdss
+	 * @return
+	 */
 	protected String data(String key) {
 		return testDataProps.getProperty(key);
+	}
+	
+	/**
+	 * Load data provider.
+	 * @param file The file could be in the same package with the test cases, or in class path, or a file path
+	 * @param type the file type. it could be "yaml", "excel", "json" or "xml"
+	 */
+	protected Object[][] dataProvider(String file, Class<?> cls, String type) throws IOException{
+		InputStream is = this.getClass().getResourceAsStream(file);
+		if (is == null) {
+			is = Thread.currentThread().getContextClassLoader().getResourceAsStream(file);
+		}
+		if (is == null) {
+			is = new FileInputStream(file);
+		}
+		DataResource resource = "xml".equalsIgnoreCase(type) ? 
+				new XmlInputStreamResource(is, cls, type) : new InputStreamResource(is, cls, type);
+		SeLionDataProvider dataProvider = DataProviderFactory.getDataProvider(resource);
+		Object[][] data = dataProvider.getAllData();
+		log.info("Load data provider: \n" + Arrays.deepToString(data));
+		return data;
 	}
 }

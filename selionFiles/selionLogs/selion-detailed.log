@@ -1,0 +1,1704 @@
+May 02, 2017 11:20:02 AM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 11:20:02 AM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 11:24:02 AM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 11:24:58 AM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 11:24:58 AM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 11:25:45 AM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 11:25:59 AM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 11:25:59 AM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY //Class Name, key:value format - !!package.test.template.cases.demo.yaml.User name:name1 password:pwd1 - !!package.test.template.cases.demo.yaml.User name:name2 password:pwd2
+May 02, 2017 11:25:59 AM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 11:25:59 AM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@4bb4de6a
+May 02, 2017 11:25:59 AM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 11:25:59 AM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 11:28:48 AM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:21:02 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:21:02 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY {user={name=name1, password=pwd1}}
+May 02, 2017 1:21:02 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:21:02 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@1d7acb34
+May 02, 2017 1:21:02 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:21:02 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 1:25:27 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@704a52ec
+May 02, 2017 1:25:27 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:25:27 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY {user={name=name1, password=pwd1}}
+May 02, 2017 1:25:27 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:25:27 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@4f51b3e0
+May 02, 2017 1:25:27 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:25:27 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 1:25:49 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@544fe44c
+May 02, 2017 1:25:49 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:25:49 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY {user={name=name1, password=pwd1}}
+May 02, 2017 1:25:49 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:25:49 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@4f51b3e0
+May 02, 2017 1:25:49 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:25:49 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 1:26:39 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@544fe44c
+May 02, 2017 1:26:39 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:26:39 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY {user={name=name1, password=pwd1}}
+May 02, 2017 1:26:39 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:26:39 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@4b9e255
+May 02, 2017 1:26:39 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:26:39 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 1:27:05 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@544fe44c
+May 02, 2017 1:27:05 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:27:05 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [test.template.cases.demo.yaml.User@3d8314f0]
+May 02, 2017 1:27:05 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:27:05 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@2df32bf7
+May 02, 2017 1:27:05 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:27:05 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 1:27:15 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@544fe44c
+May 02, 2017 1:27:15 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:27:16 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY test.template.cases.demo.yaml.User@2473b9ce
+May 02, 2017 1:27:16 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:27:16 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@60438a68
+May 02, 2017 1:27:16 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:27:16 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 1:27:30 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@544fe44c
+May 02, 2017 1:27:30 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:27:30 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY {test.template.cases.demo.yaml.User={name=name2, password=pwd2}}
+May 02, 2017 1:27:30 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:27:30 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@4b9e255
+May 02, 2017 1:27:30 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:27:30 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 1:27:54 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@544fe44c
+May 02, 2017 1:27:54 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:28:56 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@544fe44c
+May 02, 2017 1:28:56 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:29:08 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@544fe44c
+May 02, 2017 1:29:08 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:31:00 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@544fe44c
+May 02, 2017 1:31:00 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:31:12 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@544fe44c
+May 02, 2017 1:31:12 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:32:35 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@544fe44c
+May 02, 2017 1:32:35 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:32:35 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:32:35 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:32:35 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@2698dc7 [Ljava.lang.Object;@43d7741f [Ljava.lang.Object;@17baae6e
+May 02, 2017 1:32:35 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:32:35 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 1:32:56 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@26b3fd41
+May 02, 2017 1:33:03 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:33:03 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:33:03 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:33:03 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@4fb3ee4e [Ljava.lang.Object;@5d7148e2 [Ljava.lang.Object;@25fb8912
+May 02, 2017 1:33:13 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:33:13 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 1:33:19 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:33:19 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 1:34:04 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@1dac5ef
+May 02, 2017 1:34:04 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:34:04 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:34:04 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:34:04 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@342c38f8 [Ljava.lang.Object;@c88a337 [Ljava.lang.Object;@5d0a1059
+May 02, 2017 1:34:04 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:34:04 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 1:34:40 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6ee52dcd
+May 02, 2017 1:34:40 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:34:40 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:34:40 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:34:40 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@43d7741f [Ljava.lang.Object;@17baae6e [Ljava.lang.Object;@69379752
+May 02, 2017 1:37:16 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@704a52ec
+May 02, 2017 1:37:16 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:37:16 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:37:16 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:37:16 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@2698dc7 [Ljava.lang.Object;@43d7741f [Ljava.lang.Object;@17baae6e
+May 02, 2017 1:37:16 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@4e4aea35
+May 02, 2017 1:37:16 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:37:16 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [test.template.cases.demo.yaml.User@23bb8443, test.template.cases.demo.yaml.User@1176dcec]
+May 02, 2017 1:37:16 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:37:16 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@120d6fe6 [Ljava.lang.Object;@4ba2ca36
+May 02, 2017 1:38:58 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@704a52ec
+May 02, 2017 1:38:58 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:38:58 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:38:58 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:38:58 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@2698dc7 [Ljava.lang.Object;@43d7741f [Ljava.lang.Object;@17baae6e
+May 02, 2017 1:38:58 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@4e4aea35
+May 02, 2017 1:38:58 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:38:58 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [test.template.cases.demo.yaml.User@23bb8443 { name: name1, password: pwd1 }, test.template.cases.demo.yaml.User@1176dcec { name: name2, password: pwd2 }]
+May 02, 2017 1:38:58 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:38:58 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@120d6fe6 [Ljava.lang.Object;@4ba2ca36
+May 02, 2017 1:39:28 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@704a52ec
+May 02, 2017 1:39:28 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:39:28 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:39:28 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:39:28 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@2698dc7 [Ljava.lang.Object;@43d7741f [Ljava.lang.Object;@17baae6e
+May 02, 2017 1:39:28 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@4e4aea35
+May 02, 2017 1:39:28 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:40:00 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@704a52ec
+May 02, 2017 1:40:00 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:40:00 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:40:00 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:40:00 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@2698dc7 [Ljava.lang.Object;@43d7741f [Ljava.lang.Object;@17baae6e
+May 02, 2017 1:40:00 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@4e4aea35
+May 02, 2017 1:40:00 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:40:00 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [test.template.cases.demo.yaml.User@23bb8443 { name: name1, password: pwd1 }, test.template.cases.demo.yaml.User@1176dcec { name: name2, password: pwd2 }]
+May 02, 2017 1:40:00 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:40:00 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@120d6fe6 [Ljava.lang.Object;@4ba2ca36
+May 02, 2017 1:40:27 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@704a52ec
+May 02, 2017 1:40:27 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:40:27 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:40:27 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:40:27 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@2698dc7 [Ljava.lang.Object;@43d7741f [Ljava.lang.Object;@17baae6e
+May 02, 2017 1:40:27 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@4e4aea35
+May 02, 2017 1:40:27 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:40:27 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User { name: name1, password: pwd1 }, User { name: name2, password: pwd2 }]
+May 02, 2017 1:40:27 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:40:27 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@23bb8443 [Ljava.lang.Object;@1176dcec
+May 02, 2017 1:40:38 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@704a52ec
+May 02, 2017 1:40:38 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:40:38 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:40:38 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:40:38 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@2698dc7 [Ljava.lang.Object;@43d7741f [Ljava.lang.Object;@17baae6e
+May 02, 2017 1:40:38 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@4e4aea35
+May 02, 2017 1:40:38 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:40:38 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 1:40:38 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:40:38 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@23bb8443 [Ljava.lang.Object;@1176dcec
+May 02, 2017 1:41:29 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@704a52ec
+May 02, 2017 1:41:29 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:41:29 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:41:29 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:41:29 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@2698dc7 [Ljava.lang.Object;@43d7741f [Ljava.lang.Object;@17baae6e
+May 02, 2017 1:41:29 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@4e4aea35
+May 02, 2017 1:41:29 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:41:40 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@704a52ec
+May 02, 2017 1:41:40 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:41:40 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:41:40 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:41:40 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@2698dc7 [Ljava.lang.Object;@43d7741f [Ljava.lang.Object;@17baae6e
+May 02, 2017 1:41:40 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@4e4aea35
+May 02, 2017 1:41:40 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:41:40 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 1:41:40 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:41:40 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@3e77a1ed [Ljava.lang.Object;@3ffcd140
+May 02, 2017 1:51:01 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6973b51b
+May 02, 2017 1:51:01 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:51:01 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:51:01 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:51:01 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@229f66ed [Ljava.lang.Object;@31190526 [Ljava.lang.Object;@662ac478
+May 02, 2017 1:51:01 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@24269709
+May 02, 2017 1:51:01 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:51:01 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 1:51:01 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:51:01 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@23348b5d [Ljava.lang.Object;@70325e14
+May 02, 2017 1:51:06 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6973b51b
+May 02, 2017 1:51:06 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:51:06 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:51:06 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:51:06 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@229f66ed [Ljava.lang.Object;@31190526 [Ljava.lang.Object;@662ac478
+May 02, 2017 1:51:06 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@24269709
+May 02, 2017 1:51:06 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:51:06 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 1:51:06 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:51:06 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@23348b5d [Ljava.lang.Object;@70325e14
+May 02, 2017 1:51:27 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6973b51b
+May 02, 2017 1:51:27 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:51:27 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:51:27 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:51:27 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@229f66ed [Ljava.lang.Object;@31190526 [Ljava.lang.Object;@662ac478
+May 02, 2017 1:51:27 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@24269709
+May 02, 2017 1:51:27 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:51:27 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 1:51:27 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:51:27 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@23348b5d [Ljava.lang.Object;@70325e14
+May 02, 2017 1:54:44 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6973b51b
+May 02, 2017 1:54:44 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:54:44 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:54:44 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:54:44 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@229f66ed [Ljava.lang.Object;@31190526 [Ljava.lang.Object;@662ac478
+May 02, 2017 1:54:44 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@24269709
+May 02, 2017 1:54:44 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:54:44 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 1:54:44 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:54:44 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@23348b5d [Ljava.lang.Object;@70325e14
+May 02, 2017 1:55:38 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@dbf57b3
+May 02, 2017 1:55:38 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:55:38 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 1:55:38 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@139982de
+May 02, 2017 1:55:38 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:55:38 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 1:55:47 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@7193666c
+May 02, 2017 1:55:47 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:55:47 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:55:47 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:55:47 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@7e6f74c [Ljava.lang.Object;@dd05255 [Ljava.lang.Object;@6a78afa0
+May 02, 2017 1:55:47 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@26794848
+May 02, 2017 1:55:47 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:55:47 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 1:55:47 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:55:47 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@247bddad [Ljava.lang.Object;@d35dea7
+May 02, 2017 1:56:19 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@dbf57b3
+May 02, 2017 1:56:19 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:56:19 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 1:56:19 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@139982de
+May 02, 2017 1:56:19 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:56:19 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY null
+May 02, 2017 1:57:16 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@7193666c
+May 02, 2017 1:57:16 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:57:16 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:57:16 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:57:16 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@7e6f74c [Ljava.lang.Object;@dd05255 [Ljava.lang.Object;@6a78afa0
+May 02, 2017 1:57:16 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@302552ec
+May 02, 2017 1:57:16 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:57:16 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 1:57:16 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:57:16 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@d35dea7 [Ljava.lang.Object;@7770f470
+May 02, 2017 1:58:59 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@7193666c
+May 02, 2017 1:58:59 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:58:59 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:58:59 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:58:59 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@7e6f74c [Ljava.lang.Object;@dd05255 [Ljava.lang.Object;@6a78afa0
+May 02, 2017 1:58:59 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@302552ec
+May 02, 2017 1:58:59 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:58:59 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 1:58:59 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:58:59 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@d35dea7 [Ljava.lang.Object;@7770f470
+May 02, 2017 1:59:38 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@7193666c
+May 02, 2017 1:59:38 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:59:38 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:59:38 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:59:38 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@7e6f74c [Ljava.lang.Object;@dd05255 [Ljava.lang.Object;@6a78afa0
+May 02, 2017 1:59:38 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@302552ec
+May 02, 2017 1:59:38 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:59:38 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 1:59:38 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:59:38 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@d35dea7 [Ljava.lang.Object;@7770f470
+May 02, 2017 1:59:43 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@7193666c
+May 02, 2017 1:59:43 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:59:43 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 1:59:43 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:59:43 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@7e6f74c [Ljava.lang.Object;@dd05255 [Ljava.lang.Object;@6a78afa0
+May 02, 2017 1:59:43 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@302552ec
+May 02, 2017 1:59:43 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 1:59:43 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 1:59:43 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 1:59:43 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@d35dea7 [Ljava.lang.Object;@7770f470
+May 02, 2017 2:00:14 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@7193666c
+May 02, 2017 2:00:14 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:00:14 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 2:00:14 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:00:14 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@7e6f74c [Ljava.lang.Object;@dd05255 [Ljava.lang.Object;@6a78afa0
+May 02, 2017 2:00:14 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@2aceadd4
+May 02, 2017 2:00:14 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:00:14 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:00:14 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:00:14 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@70325e14 [Ljava.lang.Object;@37ceb1df
+May 02, 2017 2:14:10 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:14:10 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:14:10 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 2:14:10 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:14:10 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@7770f470 [Ljava.lang.Object;@5e5d171f [Ljava.lang.Object;@24313fcc
+May 02, 2017 2:14:10 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@7dc0f706
+May 02, 2017 2:14:10 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:14:38 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:14:38 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:14:38 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 2:14:38 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:14:38 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@7770f470 [Ljava.lang.Object;@5e5d171f [Ljava.lang.Object;@24313fcc
+May 02, 2017 2:14:38 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@7dc0f706
+May 02, 2017 2:14:38 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:14:38 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:14:38 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:14:38 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@385e9564 [Ljava.lang.Object;@5b94b04d
+May 02, 2017 2:15:47 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:16:30 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:16:30 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@2d7275fc
+May 02, 2017 2:17:19 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:17:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:17:19 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6771beb3
+May 02, 2017 2:17:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6771beb3
+May 02, 2017 2:17:38 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:17:38 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:17:39 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:17:39 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:17:39 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@1c742ed4
+May 02, 2017 2:17:39 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@1c742ed4
+May 02, 2017 2:17:39 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:17:39 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:18:52 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:18:52 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:18:52 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:18:52 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:18:52 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@342c38f8
+May 02, 2017 2:18:52 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@342c38f8
+May 02, 2017 2:18:52 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:18:52 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:21:13 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:21:13 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:21:13 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 2:21:13 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:21:13 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@7770f470 [Ljava.lang.Object;@5e5d171f [Ljava.lang.Object;@24313fcc
+May 02, 2017 2:21:13 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@7dc0f706
+May 02, 2017 2:21:13 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:21:13 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:21:13 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:21:13 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@8c3b9d [Ljava.lang.Object;@4c39bec8
+May 02, 2017 2:21:42 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:21:42 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:21:42 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 2:21:42 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:21:42 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@7770f470 [Ljava.lang.Object;@5e5d171f [Ljava.lang.Object;@24313fcc
+May 02, 2017 2:21:42 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@7dc0f706
+May 02, 2017 2:21:42 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:21:42 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:21:42 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:21:42 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@8c3b9d [Ljava.lang.Object;@4c39bec8
+May 02, 2017 2:21:44 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:21:44 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:21:44 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:21:44 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:21:44 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: ENTRY String false
+May 02, 2017 2:21:44 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY String
+May 02, 2017 2:21:44 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@342c38f8
+May 02, 2017 2:21:44 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@342c38f8
+May 02, 2017 2:21:44 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:21:44 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:21:44 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: ENTRY User false
+May 02, 2017 2:21:44 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:24:51 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:24:51 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:24:51 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:24:51 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:24:51 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@342c38f8
+May 02, 2017 2:24:51 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@342c38f8
+May 02, 2017 2:24:51 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:24:51 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:25:02 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:25:02 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:25:02 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:25:02 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:25:02 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: ENTRY String false
+May 02, 2017 2:25:02 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY String
+May 02, 2017 2:25:02 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@342c38f8
+May 02, 2017 2:25:02 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@342c38f8
+May 02, 2017 2:25:02 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:25:02 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:25:02 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: ENTRY User false
+May 02, 2017 2:25:02 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: ENTRY String false
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY String
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@342c38f8
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@342c38f8
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: ENTRY User false
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@485966cc
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: RETURN [org.apache.poi.hssf.usermodel.HSSFRow@1de76cc7, org.apache.poi.hssf.usermodel.HSSFRow@54bff557]
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: ENTRY User 2
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@485966cc
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@593aaf41 2
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [password, null]
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: RETURN [password, null]
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@1de76cc7 2
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [pwd1, null]
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY User {name: null, password: null} [Ljava.lang.reflect.Field;@5a56cdac [pwd1, null] {password=pwd1}
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.password, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: null, password: null}, dataToUse=pwd1]
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN User {name: null, password: pwd1}
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@54bff557 2
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [pwd2, null]
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY User {name: null, password: null} [Ljava.lang.reflect.Field;@5a56cdac [pwd2, null] {password=pwd2}
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.password, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: null, password: null}, dataToUse=pwd2]
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN User {name: null, password: pwd2}
+May 02, 2017 2:25:24 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@1de5f259 [Ljava.lang.Object;@729d991e
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: ENTRY String false
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY String
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@342c38f8
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@342c38f8
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: ENTRY User false
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@54bff557
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: RETURN [org.apache.poi.hssf.usermodel.HSSFRow@2ea41516, org.apache.poi.hssf.usermodel.HSSFRow@3a44431a]
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: ENTRY User 2
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@54bff557
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@3c7f66c4 2
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name, password]
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: RETURN [name, password]
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@2ea41516 2
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name1, pwd1]
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY User {name: null, password: null} [Ljava.lang.reflect.Field;@194bcebf [name1, pwd1] {password=pwd1, name=name1}
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.name, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: null, password: null}, dataToUse=name1]
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.password, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: name1, password: null}, dataToUse=pwd1]
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN User {name: name1, password: pwd1}
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@3a44431a 2
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name2, pwd2]
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY User {name: null, password: null} [Ljava.lang.reflect.Field;@194bcebf [name2, pwd2] {password=pwd2, name=name2}
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.name, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: null, password: null}, dataToUse=name2]
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.password, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: name2, password: null}, dataToUse=pwd2]
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN User {name: name2, password: pwd2}
+May 02, 2017 2:26:01 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@437da279 [Ljava.lang.Object;@23c30a20
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: ENTRY String false
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY String
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@741a8937
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: RETURN [org.apache.poi.hssf.usermodel.HSSFRow@306e95ec, org.apache.poi.hssf.usermodel.HSSFRow@52af26ee, org.apache.poi.hssf.usermodel.HSSFRow@6fd83fc1]
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: ENTRY String 5
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY String
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@741a8937
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@4f2b503c 5
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [null, null, null, null, null]
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: RETURN [null, null, null, null, null]
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@306e95ec 5
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [null, null, null, null, null]
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY  [Ljava.lang.reflect.Field;@bae7dc0 [null, null, null, null, null] {}
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN 
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@52af26ee 5
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [null, null, null, null, null]
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY  [Ljava.lang.reflect.Field;@bae7dc0 [null, null, null, null, null] {}
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN 
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@6fd83fc1 5
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [null, null, null, null, null]
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY  [Ljava.lang.reflect.Field;@bae7dc0 [null, null, null, null, null] {}
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN 
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@209da20d [Ljava.lang.Object;@e15b7e8 [Ljava.lang.Object;@1b2abca6
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@2ea41516
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@2ea41516
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: ENTRY User false
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@f0da945
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: RETURN [org.apache.poi.hssf.usermodel.HSSFRow@32502377, org.apache.poi.hssf.usermodel.HSSFRow@2c1b194a]
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: ENTRY User 2
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@f0da945
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@4dbb42b7 2
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name, password]
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: RETURN [name, password]
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@32502377 2
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name1, pwd1]
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY User {name: null, password: null} [Ljava.lang.reflect.Field;@66f57048 [name1, pwd1] {password=pwd1, name=name1}
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.name, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: null, password: null}, dataToUse=name1]
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.password, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: name1, password: null}, dataToUse=pwd1]
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN User {name: name1, password: pwd1}
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@2c1b194a 2
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name2, pwd2]
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY User {name: null, password: null} [Ljava.lang.reflect.Field;@66f57048 [name2, pwd2] {password=pwd2, name=name2}
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.name, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: null, password: null}, dataToUse=name2]
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.password, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: name2, password: null}, dataToUse=pwd2]
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN User {name: name2, password: pwd2}
+May 02, 2017 2:27:35 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@61001b64 [Ljava.lang.Object;@4310d43
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: ENTRY String false
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY String
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@52af26ee
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: RETURN [org.apache.poi.hssf.usermodel.HSSFRow@342c38f8, org.apache.poi.hssf.usermodel.HSSFRow@c88a337, org.apache.poi.hssf.usermodel.HSSFRow@5d0a1059]
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: ENTRY String 5
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY String
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@52af26ee
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@485966cc 5
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [value1, null, null, null, null]
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: RETURN [value1, null, null, null, null]
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@342c38f8 5
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [value2, null, null, null, null]
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY  [Ljava.lang.reflect.Field;@1de76cc7 [value2, null, null, null, null] {value1=value2}
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN 
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@c88a337 5
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [value3, null, null, null, null]
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY  [Ljava.lang.reflect.Field;@1de76cc7 [value3, null, null, null, null] {value1=value3}
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN 
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@5d0a1059 5
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [value4, null, null, null, null]
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY  [Ljava.lang.reflect.Field;@1de76cc7 [value4, null, null, null, null] {value1=value4}
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN 
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@54bff557 [Ljava.lang.Object;@593aaf41 [Ljava.lang.Object;@5a56cdac
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@1de5f259
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@1de5f259
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: ENTRY User false
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@957e06
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: RETURN [org.apache.poi.hssf.usermodel.HSSFRow@32502377, org.apache.poi.hssf.usermodel.HSSFRow@2c1b194a]
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: ENTRY User 2
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@957e06
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@4dbb42b7 2
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name, password]
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: RETURN [name, password]
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@32502377 2
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name1, pwd1]
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY User {name: null, password: null} [Ljava.lang.reflect.Field;@66f57048 [name1, pwd1] {password=pwd1, name=name1}
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.name, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: null, password: null}, dataToUse=name1]
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.password, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: name1, password: null}, dataToUse=pwd1]
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN User {name: name1, password: pwd1}
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@2c1b194a 2
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name2, pwd2]
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY User {name: null, password: null} [Ljava.lang.reflect.Field;@66f57048 [name2, pwd2] {password=pwd2, name=name2}
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.name, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: null, password: null}, dataToUse=name2]
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.password, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: name2, password: null}, dataToUse=pwd2]
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN User {name: name2, password: pwd2}
+May 02, 2017 2:28:19 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@61001b64 [Ljava.lang.Object;@4310d43
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: ENTRY User false
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@6fd83fc1
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: RETURN [org.apache.poi.hssf.usermodel.HSSFRow@c88a337, org.apache.poi.hssf.usermodel.HSSFRow@5d0a1059]
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: ENTRY User 2
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@6fd83fc1
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@485966cc 2
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name, password]
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: RETURN [name, password]
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@c88a337 2
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name1, pwd1]
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY User {name: null, password: null} [Ljava.lang.reflect.Field;@1de76cc7 [name1, pwd1] {password=pwd1, name=name1}
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.name, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: null, password: null}, dataToUse=name1]
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.password, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: name1, password: null}, dataToUse=pwd1]
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN User {name: name1, password: pwd1}
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@5d0a1059 2
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name2, pwd2]
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY User {name: null, password: null} [Ljava.lang.reflect.Field;@1de76cc7 [name2, pwd2] {password=pwd2, name=name2}
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.name, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: null, password: null}, dataToUse=name2]
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.password, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: name2, password: null}, dataToUse=pwd2]
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN User {name: name2, password: pwd2}
+May 02, 2017 2:30:50 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@316bcf94 [Ljava.lang.Object;@6404f418
+May 02, 2017 2:31:19 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:31:19 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:31:19 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 2:31:19 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:31:19 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@7770f470 [Ljava.lang.Object;@5e5d171f [Ljava.lang.Object;@24313fcc
+May 02, 2017 2:31:19 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@7dc0f706
+May 02, 2017 2:31:19 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:31:19 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:31:19 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:31:19 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@8c3b9d [Ljava.lang.Object;@4c39bec8
+May 02, 2017 2:34:50 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:34:50 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:34:51 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 2:34:51 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:34:51 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@7770f470 [Ljava.lang.Object;@5e5d171f [Ljava.lang.Object;@24313fcc
+May 02, 2017 2:34:51 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@7dc0f706
+May 02, 2017 2:34:51 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:34:51 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY {user1={name=name1, password=pwd2}, user2={name=name2, password=pwd2}}
+May 02, 2017 2:34:51 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:34:51 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@75db5df9 [Ljava.lang.Object;@707194ba
+May 02, 2017 2:34:51 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@291caca8
+May 02, 2017 2:34:51 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:34:51 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:34:51 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:34:51 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@3af9c5b7 [Ljava.lang.Object;@37271612
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: ENTRY User false
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@6fd83fc1
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: RETURN [org.apache.poi.hssf.usermodel.HSSFRow@c88a337, org.apache.poi.hssf.usermodel.HSSFRow@5d0a1059]
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: ENTRY User 2
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@6fd83fc1
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@485966cc 2
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name, password]
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: RETURN [name, password]
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@c88a337 2
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name1, pwd1]
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY User {name: null, password: null} [Ljava.lang.reflect.Field;@1de76cc7 [name1, pwd1] {password=pwd1, name=name1}
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.name, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: null, password: null}, dataToUse=name1]
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.password, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: name1, password: null}, dataToUse=pwd1]
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN User {name: name1, password: pwd1}
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@5d0a1059 2
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name2, pwd2]
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY User {name: null, password: null} [Ljava.lang.reflect.Field;@1de76cc7 [name2, pwd2] {password=pwd2, name=name2}
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.name, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: null, password: null}, dataToUse=name2]
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.password, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: name2, password: null}, dataToUse=pwd2]
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN User {name: name2, password: pwd2}
+May 02, 2017 2:40:55 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@316bcf94 [Ljava.lang.Object;@6404f418
+May 02, 2017 2:44:04 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:46:40 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource@dd8ba08
+May 02, 2017 2:46:40 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:46:40 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: ENTRY
+May 02, 2017 2:46:40 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: RETURN [[user: null], [user: null]]
+May 02, 2017 2:46:40 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [[user: null], [user: null]]
+May 02, 2017 2:46:40 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:46:40 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: RETURN
+May 02, 2017 2:46:57 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource@dd8ba08
+May 02, 2017 2:46:57 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:46:57 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: ENTRY
+May 02, 2017 2:46:57 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: RETURN [[user: null], [user: null]]
+May 02, 2017 2:46:57 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [[user: null], [user: null]]
+May 02, 2017 2:46:57 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:46:57 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: RETURN
+May 02, 2017 2:47:42 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource@dd8ba08
+May 02, 2017 2:47:42 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:47:42 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: ENTRY
+May 02, 2017 2:47:42 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: RETURN [[user: null], [user: null]]
+May 02, 2017 2:47:42 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [[user: null], [user: null]]
+May 02, 2017 2:47:42 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:47:42 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: RETURN
+May 02, 2017 2:48:24 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource@dd8ba08
+May 02, 2017 2:48:24 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:48:24 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: ENTRY
+May 02, 2017 2:48:24 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: RETURN [[user: null], [user: null]]
+May 02, 2017 2:48:24 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [[user: null], [user: null]]
+May 02, 2017 2:48:24 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:48:24 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: RETURN
+May 02, 2017 2:48:56 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource@399f45b1
+May 02, 2017 2:48:56 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:48:56 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: ENTRY
+May 02, 2017 2:48:56 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: RETURN [[user: null], [user: null]]
+May 02, 2017 2:48:56 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [[user: null], [user: null]]
+May 02, 2017 2:48:56 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:48:56 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: RETURN
+May 02, 2017 2:50:16 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource@399f45b1
+May 02, 2017 2:50:16 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:50:16 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: ENTRY
+May 02, 2017 2:50:16 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: RETURN [[user: null], [user: null]]
+May 02, 2017 2:50:16 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [[user: null], [user: null]]
+May 02, 2017 2:50:16 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:50:16 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: RETURN
+May 02, 2017 2:50:33 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource@399f45b1
+May 02, 2017 2:50:33 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:50:33 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: ENTRY
+May 02, 2017 2:50:33 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: RETURN [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:50:33 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:50:33 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:50:33 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: RETURN
+May 02, 2017 2:50:52 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource@dd8ba08
+May 02, 2017 2:50:52 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:50:52 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: ENTRY
+May 02, 2017 2:50:52 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: RETURN [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:50:52 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:50:52 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:50:52 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: RETURN
+May 02, 2017 2:51:00 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource@dd8ba08
+May 02, 2017 2:51:00 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:51:00 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: ENTRY
+May 02, 2017 2:51:00 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: RETURN [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:51:00 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:51:00 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:51:00 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: RETURN
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6ae5aa72
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [value1, value2, value3]
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@7bedc48a [Ljava.lang.Object;@131ef10 [Ljava.lang.Object;@55b0dcab
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@4988d8b8
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY {user1={name=name1, password=pwd2}, user2={name=name2, password=pwd2}}
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@385e9564 [Ljava.lang.Object;@5b94b04d
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@1f59a598
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.YamlDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@6ab778a [Ljava.lang.Object;@4e3958e7
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6f45df59
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6f45df59
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader <init>
+FINER: RETURN
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: ENTRY User false
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@4bdeaabb
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getAllExcelRows
+FINER: RETURN [org.apache.poi.hssf.usermodel.HSSFRow@4007f65e, org.apache.poi.hssf.usermodel.HSSFRow@1a245833]
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: ENTRY User 2
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: ENTRY User
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader fetchSheet
+FINER: RETURN org.apache.poi.hssf.usermodel.HSSFSheet@4bdeaabb
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@673fdbce 2
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name, password]
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getHeaderRowContents
+FINER: RETURN [name, password]
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@4007f65e 2
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name1, pwd1]
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY User {name: null, password: null} [Ljava.lang.reflect.Field;@5965d37 [name1, pwd1] {password=pwd1, name=name1}
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.name, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: null, password: null}, dataToUse=name1]
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.password, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: name1, password: null}, dataToUse=pwd1]
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN User {name: name1, password: pwd1}
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: ENTRY org.apache.poi.hssf.usermodel.HSSFRow@1a245833 2
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelReader getRowContents
+FINER: RETURN [name2, pwd2]
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: ENTRY User {name: null, password: null} [Ljava.lang.reflect.Field;@5965d37 [name2, pwd2] {password=pwd2, name=name2}
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.name, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: null, password: null}, dataToUse=name2]
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: ENTRY DataMemberInformation [field=private java.lang.String test.template.cases.demo.dataprovider.User.password, userProvidedObject=User {name: null, password: null}, objectToSetDataInto=User {name: name2, password: null}, dataToUse=pwd2]
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: ENTRY class java.lang.String
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ReflectionUtils hasOneArgStringConstructor
+FINER: RETURN true
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl setValueForNonArrayType
+FINER: RETURN
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl prepareObject
+FINER: RETURN User {name: name2, password: pwd2}
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.ExcelDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@17bffc17 [Ljava.lang.Object;@6e535154
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource@65f8f5ae
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: ENTRY
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: RETURN [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:51:09 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: RETURN
+May 02, 2017 2:52:07 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource@dd8ba08
+May 02, 2017 2:52:07 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:52:07 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: ENTRY
+May 02, 2017 2:52:07 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: RETURN [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:52:07 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:52:07 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:52:07 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: RETURN
+May 02, 2017 2:52:24 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource@dd8ba08
+May 02, 2017 2:52:24 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:52:24 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: ENTRY
+May 02, 2017 2:52:24 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: RETURN [User {name: name1, password: pwd1}, [users: null]]
+May 02, 2017 2:52:24 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, [users: null]]
+May 02, 2017 2:52:24 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:52:24 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: RETURN
+May 02, 2017 2:52:41 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource@dd8ba08
+May 02, 2017 2:52:41 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: ENTRY
+May 02, 2017 2:52:41 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: ENTRY
+May 02, 2017 2:52:41 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl loadDataFromXmlFile
+FINER: RETURN [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:52:41 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: ENTRY [User {name: name1, password: pwd1}, User {name: name2, password: pwd2}]
+May 02, 2017 2:52:41 PM com.paypal.selion.platform.dataprovider.impl.DataProviderHelper convertToObjectArray
+FINER: RETURN
+May 02, 2017 2:52:41 PM com.paypal.selion.platform.dataprovider.impl.XmlDataProviderImpl getAllData
+FINER: RETURN
+May 02, 2017 2:54:25 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:54:25 PM com.paypal.selion.platform.dataprovider.impl.JsonDataProviderImpl getAllData
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:54:25 PM com.paypal.selion.platform.dataprovider.impl.JsonDataProviderImpl getAllData
+FINE: The Json Data is mapped as
+May 02, 2017 2:54:25 PM com.paypal.selion.platform.dataprovider.impl.JsonDataProviderImpl mapJsonData
+FINER: ENTRY JsonReader at line 1 column 1 path $ class [Ltest.template.cases.demo.dataprovider.User;
+May 02, 2017 2:54:55 PM com.paypal.selion.platform.dataprovider.DataProviderFactory getDataProvider
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:54:55 PM com.paypal.selion.platform.dataprovider.impl.JsonDataProviderImpl getAllData
+FINER: ENTRY com.paypal.selion.platform.dataprovider.impl.InputStreamResource@6d763516
+May 02, 2017 2:54:55 PM com.paypal.selion.platform.dataprovider.impl.JsonDataProviderImpl getAllData
+FINE: The Json Data is mapped as
+May 02, 2017 2:54:55 PM com.paypal.selion.platform.dataprovider.impl.JsonDataProviderImpl mapJsonData
+FINER: ENTRY JsonReader at line 1 column 1 path $ class [Ltest.template.cases.demo.dataprovider.User;
+May 02, 2017 2:54:55 PM com.paypal.selion.platform.dataprovider.impl.JsonDataProviderImpl prepareDataAsObjectArray
+FINER: ENTRY User {name: name1, password: pwd1} User {name: name2, password: pwd2}
+May 02, 2017 2:54:55 PM com.paypal.selion.platform.dataprovider.impl.JsonDataProviderImpl prepareDataAsObjectArray
+FINE: Entity Size to be mapped to 2D array:2
+May 02, 2017 2:54:55 PM com.paypal.selion.platform.dataprovider.impl.JsonDataProviderImpl prepareDataAsObjectArray
+FINER: RETURN [Ljava.lang.Object;@62ddbd7e [Ljava.lang.Object;@74e52ef6
+May 02, 2017 2:54:55 PM com.paypal.selion.platform.dataprovider.impl.JsonDataProviderImpl getAllData
+FINER: RETURN [Ljava.lang.Object;@62ddbd7e [Ljava.lang.Object;@74e52ef6
