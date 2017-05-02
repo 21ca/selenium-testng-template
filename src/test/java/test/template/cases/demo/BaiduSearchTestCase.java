@@ -10,7 +10,7 @@ public class BaiduSearchTestCase extends BaseTestCase {
 	@Test()
 	public void test() {
 		driver().get("http://127.0.0.1/");
-		SeleniumUtils.takeScreenShot(driver());
+		SeleniumUtils.takeScreenShot();
 	}
 
 }

@@ -1,42 +1,30 @@
 package test.template.utils;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.net.URL;
-import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.IOUtils;
-import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.google.common.base.Function;
-import com.google.common.base.Predicate;
+
+import test.template.common.Config;
 
 
 public final class SeleniumUtils {
@@ -44,10 +32,10 @@ public final class SeleniumUtils {
 	public static String DOWNLOAD_PATH = "./download/";
 	private static final Logger log = LoggerFactory.getLogger(SeleniumUtils.class);
 
-	public static final String takeScreenShot(RemoteWebDriver driver) {
+	public static final String takeScreenShot() {
 		log.info("Capture the screen.");
 		try {
-			File scrFile = driver.getScreenshotAs(OutputType.FILE);
+			File scrFile = Config.driver().getScreenshotAs(OutputType.FILE);
 			String fileName = UUID.randomUUID().toString().replaceAll("-", "") + ".png";
 			log.info("Save screenshot as: " + fileName);
 			FileUtils.copyFile(scrFile, new File(SCREENSHOT_PATH + fileName));
@@ -57,79 +45,29 @@ public final class SeleniumUtils {
 			return null;
 		}
 	}
-	public static final void scrollToElement(WebDriver driver, WebElement element) {
-		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", element);
-		((JavascriptExecutor)driver).executeScript("scrollBy(0, -window.screen.availHeight/2)");
+	
+	public static final void scrollToTop() {
+		((JavascriptExecutor)Config.driver()).executeScript("scrollTo(0, 0)");
 	}
 	
-	public static final void scrollToTop(WebDriver driver) {
-		((JavascriptExecutor)driver).executeScript("scrollTo(0, 0)");
-	}
-	
-	public static final void waitForPageLoadComplete(WebDriver driver) {
-		Predicate<WebDriver> loadComplete = new Predicate<WebDriver>() {
-			@Override
-			public boolean apply(WebDriver driver) {
-				return ((RemoteWebDriver)driver).executeScript("return document.readyState").equals("complete");
-			}
-		};
-		new WebDriverWait(driver, 60).until(loadComplete);
-	}
-
-	public static final WebElement waitForElement(WebDriver driver, final By by, int timeoutInSeconds) {
-		return waitForCondition(driver, timeoutInSeconds, ExpectedConditions.presenceOfElementLocated(by));
-	}
-
-	public static final WebElement waitForElementClickable(WebDriver driver, final By by, int timeoutInSeconds) {
-		return waitForCondition(driver, timeoutInSeconds,ExpectedConditions.elementToBeClickable(by));
-	}
-
-	public static final Alert waitForAlert(WebDriver driver,int timeoutInSeconds) {
-		return waitForCondition(driver, timeoutInSeconds, ExpectedConditions.alertIsPresent());
-	}
-	
-	public static final <T> T waitForCondition(WebDriver driver,
-			int timeoutInSeconds, ExpectedCondition<T> condition) {
-		WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
-		return wait.until(condition);
-	}
-	
-	public static final boolean isWebElementExist(WebDriver driver, By by) {
+	public static final String getWebText(By by) {
 		try {
-			driver.findElement(by);
-			return true;
-		} catch (NoSuchElementException e) {
-			return false;
-		}
-	}
-				
-	public static final boolean isAlertPresent(WebDriver driver) {
-		try {
-			driver.switchTo().alert();
-			return true;
-		} catch (NoAlertPresentException e) {
-			return false;
-		}
-	}
-
-	public static final String getWebText(WebDriver driver, By by) {
-		try {
-			SeleniumUtils.waitForElement(driver, by, 20);
-			return driver.findElement(by).getText();
+			SeleniumWaitUtils.waitForElement(by);
+			return Config.driver().findElement(by).getText();
 		} catch (NoSuchElementException e) {
 			return null;
 		}
 	}
 
-	public static final void sendKeys(WebDriver driver, By by, String value) {
-		SeleniumUtils.waitForElement(driver, by, 20);
-		driver.findElement(by).clear();
-		driver.findElement(by).sendKeys(value);
+	public static final void sendKeys(By by, String value) {
+		SeleniumWaitUtils.waitForElement(by);
+		Config.driver().findElement(by).clear();
+		Config.driver().findElement(by).sendKeys(value);
 	}
 	
-	public static final void click(WebDriver driver, By by){
-		
-		WebElement clickElement = driver.findElement(by);
+	public static final void click(By by){
+		SeleniumWaitUtils.waitForElement(by);
+		WebElement clickElement = Config.driver().findElement(by);
 		clickElement.click();
 	}
 	
@@ -140,49 +78,32 @@ public final class SeleniumUtils {
 		}
 	}
 	
-	public static final boolean isTextPresent(WebDriver driver, String text) {
-		SeleniumUtils.waitForElement(driver, By.xpath("*"), 20);
+	public static final boolean isTextPresent(String text) {
+		SeleniumWaitUtils.waitForElement(By.xpath("*"));
 		System.out.println(text);
-		return driver.findElement(By.xpath("*")).getText().contains(text);
-	
-		// return isWebElementExist(driver, By.xpath("//*[contains(text(),'" + text + "')]"));
-		// return driver.getPageSource().contains(text);
+		return Config.driver().findElement(By.xpath("*")).getText().contains(text);
 	}
 	
-	public static final boolean switchToWindowByTitle(WebDriver driver, String windowTitle){  
-		String currentHandle = driver.getWindowHandle();
-		Set<String> handles = driver.getWindowHandles();
+	public static final boolean switchToWindowByTitle(String windowTitle){  
+		String currentHandle = Config.driver().getWindowHandle();
+		Set<String> handles = Config.driver().getWindowHandles();
 		for (String h : handles) {
 			if (!h.equals(currentHandle)) {
-				driver.switchTo().window(h);
-				if (driver.getTitle().contains(windowTitle)) {
+				Config.driver().switchTo().window(h);
+				if (Config.driver().getTitle().contains(windowTitle)) {
 					return true;
 				}
 			}
 		}
 		return false;
 	}
-	
-	public static final boolean trySwitchToWindowByTitle(WebDriver driver, final String windowTitle, int timeOutInSeconds) {
-		try {
-			new WebDriverWait(driver, timeOutInSeconds).until(new Predicate<WebDriver>() {
-				@Override
-				public boolean apply(WebDriver driver) {
-					return switchToWindowByTitle(driver, windowTitle);
-				}
-			});
-			return true;
-		} catch (Exception e) {
-			return false;
-		}
-	} 
-			
-    public static final boolean  switchToWindownByPageSource(WebDriver driver,String windowContent){
-    	Set<String> allWindows = driver.getWindowHandles();
+				
+    public static final boolean switchToWindownByPageSource(String windowContent){
+    	Set<String> allWindows = Config.driver().getWindowHandles();
     	for (String windowId : allWindows) {
-   		driver.switchTo().window(windowId);
-    		if (driver.getPageSource().contains(windowContent)){
-    			driver.switchTo().window(windowId);
+    		Config.driver().switchTo().window(windowId);
+    		if (Config.driver().getPageSource().contains(windowContent)){
+    			Config.driver().switchTo().window(windowId);
     			System.out.println("Switch to window: " + windowId + " successfully!"); 
     			return true;
     		}    		   			
@@ -195,9 +116,9 @@ public final class SeleniumUtils {
    *  When two windows are opened, switch to another window   
    * @param driver
    */
-  public static final void switchToAnotherWindow(WebDriver driver) {
-        final String parentWindowHandle = driver.getWindowHandle();
-        new WebDriverWait(driver, 5, 100).until(new Function<WebDriver, Boolean>() {
+  public static final void switchToAnotherWindow() {
+        final String parentWindowHandle = Config.driver().getWindowHandle();
+        new WebDriverWait(Config.driver(), 5, 100).until(new Function<WebDriver, Boolean>() {
             @Override
             public Boolean apply(final WebDriver driver) {
                 String[] windowHandles =
@@ -215,8 +136,8 @@ public final class SeleniumUtils {
         });
     }
     
-    public static final WebElement findRadioButton(WebDriver driver,WebElement parent, int index){
-    	SeleniumUtils.waitForElement(driver, By.cssSelector("input[type='radio']"), 20);
+    public static final WebElement findRadioButton(WebElement parent, int index){
+    	SeleniumWaitUtils.waitForElement(By.cssSelector("input[type='radio']"));
         return parent.findElements(By.cssSelector("input[type='radio']")).get(index);
     }
     
@@ -226,64 +147,49 @@ public final class SeleniumUtils {
     * @param element
     * @param timeoutSeconds
     */
-    public static final void clickWithTimeout(RemoteWebDriver driver, WebElement element, int timeoutSeconds) {
-        driver.executeScript(
+    public static final void clickWithTimeout(WebElement element, int timeoutSeconds) {
+        Config.driver().executeScript(
                "var el=arguments[0]; var timeout=arguments[1] * 1000; setTimeout(function() { el.click(); }, timeout);",
                element, timeoutSeconds);
     }
     
-    public static final void selectCheckbox(WebElement parent,int index){
-  
-    	List<WebElement> checkBox= parent.findElements(By.cssSelector("input[type='checkbox']"));
+    public static final void selectCheckbox(WebElement parent, int index){
+      	List<WebElement> checkBox= parent.findElements(By.cssSelector("input[type='checkbox']"));
     	if(!checkBox.get(index).isSelected()){
-    	checkBox.get(index).click();
-    	SeleniumUtils.sleepInSeconds(4);
-    	//List<WebElement> box= parent.findElements(By.cssSelector("input[type='checkbox']"));
-    	/**log.info("Select the CheckBox - " + checkBox.get(index).getAttribute("id") + ":" 
-    	+ checkBox.get(index).isSelected()); **/
+	    	checkBox.get(index).click();
     	}
    }
 
 
-	public static final void unselectCheckbox(WebElement parent,int index){
+	public static final void unselectCheckbox(WebElement parent, int index){
 		List<WebElement> checkBox= parent.findElements(By.cssSelector("input[type='checkbox']"));
 		if(checkBox.get(index).isSelected()){
 			checkBox.get(index).click();
 			SeleniumUtils.sleepInSeconds(2);
-			/**List<WebElement> box= parent.findElements(By.cssSelector("input[type='checkbox']"));
-			log.info("Select the CheckBox - " + box.get(index).getAttribute("id") + ":" 
-					+ box.get(index).isSelected());		**/
 		}
 	}	
 	
-	public static final void dismissAlert(WebDriver driver){
-		
-		SeleniumUtils.waitForAlert(driver, 20);
-
-		Alert alert = driver.switchTo().alert();
-		log.info(alert.getText());
+	public static final void dismissAlert(){
+		SeleniumWaitUtils.waitForAlert();
+		Alert alert = Config.driver().switchTo().alert();
+		log.info("Alert: " + alert.getText());
 		alert.dismiss();
-		SeleniumUtils.sleepInSeconds(10);
-		log.info("Dismiss Alter.");	
+		log.info("Dismiss Alter");	
 	}
 	
 	public  static final void acceptAlert(WebDriver driver){
-		
-		SeleniumUtils.waitForAlert(driver, 20);
-
+		SeleniumWaitUtils.waitForAlert();
 		Alert alert = driver.switchTo().alert();
-		log.info(alert.getText());
+		log.info("Alert: " + alert.getText());
 		alert.accept();
-		SeleniumUtils.sleepInSeconds(10);
-		log.info("Accept Alter.");	
+		log.info("Accept Alter");	
 	}
 	
-    public static final void selectRadioButton(WebDriver driver,WebElement parent,int index){
-    	SeleniumUtils.waitForElement(driver, By.cssSelector("input[type='radio']"), 20);
+    public static final void selectRadioButton(WebElement parent,int index){
+    	SeleniumWaitUtils.waitForElement(By.cssSelector("input[type='radio']"));
     	List<WebElement> radioButton= parent.findElements(By.cssSelector("input[type='radio']"));
     	if(!radioButton.get(index).isSelected()){
     		radioButton.get(index).click();
-    		SeleniumUtils.sleepInSeconds(5);
     	}
 	}
     
@@ -332,7 +238,6 @@ public final class SeleniumUtils {
     		result.add(StringUtils.trim(e.getText()));
     	}
     	return result;
-    	//Assert.assertEquals(SeleniumUtils.getTableTextsByColumnIndex(table , 2), Arrays.asList("2", "22", "222"));
     }
 	
 	/**
