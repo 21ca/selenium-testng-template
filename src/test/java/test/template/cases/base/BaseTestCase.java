@@ -83,9 +83,10 @@ public abstract class BaseTestCase {
 	}
 	
 	/**
+	 * Read test data from the property file. The property file name is same with the test case name.
+	 * If the property file has no related data, check the config properties
 	 * 
-	 * @param key sssdss
-	 * @return
+	 * Priority: Test.properties > config_env.properties > config.properties
 	 */
 	protected String data(String key) {
 		String value = testDataProps.getProperty(key);
