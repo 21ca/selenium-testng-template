@@ -94,7 +94,6 @@ public class FileUtils {
 	 * Each row is a String array.
 	 */
 	public static List<String[]> readExcel(File file, int sheetIndex) throws Exception {
-		System.setProperty("java.io.tmpdir", "logs");
 		Workbook workbook = WorkbookFactory.create(new FileInputStream(file));
 		Sheet sheet = workbook.getSheetAt(sheetIndex);
 		List<String[]> data = new ArrayList<>();
