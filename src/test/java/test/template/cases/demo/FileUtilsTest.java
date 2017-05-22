@@ -70,12 +70,16 @@ public class FileUtilsTest {
 		Assert.assertEquals(user.password, user2.password);
 	}
 	
+	@SuppressWarnings("unchecked")
 	@Test
-	public void testYmal2() throws IOException {
-		File file = new File("src/test/java/test/template/cases/demo/dataprovider/user.yml");;
-		List<test.template.cases.demo.dataprovider.User> users = 
-				FileUtils.readFromYmal(file, List.class);
-		System.out.println(users);
+	public void testReadYmal() throws IOException {
+		File file = new File("src/test/java/test/template/cases/demo/user.yml");;
+		List<User> users = FileUtils.readFromYmal(file, List.class);
+		Assert.assertEquals(users.size(), 2);
+		Assert.assertEquals(users.get(0).name, "name1");
+		Assert.assertEquals(users.get(0).password, "pwd1");
+		Assert.assertEquals(users.get(1).name, "name2");
+		Assert.assertEquals(users.get(1).password, "pwd2");
 	}
 
 }
