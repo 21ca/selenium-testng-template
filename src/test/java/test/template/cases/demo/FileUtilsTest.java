@@ -1,6 +1,7 @@
 package test.template.cases.demo;
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.List;
 
 import org.testng.Assert;
@@ -82,4 +83,29 @@ public class FileUtilsTest {
 		Assert.assertEquals(users.get(1).password, "pwd2");
 	}
 
+	@Test
+	public void testReadExcel() throws Exception {
+		List<String[]> data = FileUtils.readExcel(new File("src/test/java/test/template/cases/demo/test.xls"), 0);
+		System.out.println("Read xls");
+		for (String[] d : data) {
+			System.out.println(Arrays.toString(d));
+		}
+		
+		data = FileUtils.readExcel(new File("src/test/java/test/template/cases/demo/test.xlsx"), 0);
+		System.out.println("Read xlsx");
+		for (String[] d : data) {
+			System.out.println(Arrays.toString(d));
+		}
+	}
+	
+	@Test
+	public void testReadExcelAsObject() throws Exception {
+		List<User> users = FileUtils.readExcel(new File("src/test/java/test/template/cases/demo/test.xls"), 0, User.class);
+		Assert.assertEquals(users.size(), 2);
+		Assert.assertEquals(users.get(0).name, "name1");
+		Assert.assertEquals(users.get(0).password, "pwd1");
+		Assert.assertEquals(users.get(1).name, "name2");
+		Assert.assertEquals(users.get(1).password, "pwd2");
+
+	}
 }

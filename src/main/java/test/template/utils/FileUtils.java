@@ -1,20 +1,37 @@
 package test.template.utils;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.StringReader;
 import java.io.StringWriter;
+import java.lang.reflect.Field;
 import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 import javax.xml.bind.JAXB;
 
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 public class FileUtils {
+	
+	static {
+		System.setProperty("java.io.tmpdir", "logs");
+	}
 	private static final Charset UTF8 = Charset.forName("UTF-8");
+	private static final Logger LOG = LoggerFactory.getLogger(FileUtils.class);
 
 	public static String toJson(Object o) {
 		Gson json = new GsonBuilder().setPrettyPrinting().create();
@@ -69,6 +86,78 @@ public class FileUtils {
 
 	public static <T> T readFromYmal(File file, Class<T> clazz) throws IOException {
 		return fromYmal(readFile(file), clazz);
+	}
+
+	/**
+	 * Read Excel file to List
+	 * 
+	 * Each row is a String array.
+	 */
+	public static List<String[]> readExcel(File file, int sheetIndex) throws Exception {
+		System.setProperty("java.io.tmpdir", "logs");
+		Workbook workbook = WorkbookFactory.create(new FileInputStream(file));
+		Sheet sheet = workbook.getSheetAt(sheetIndex);
+		List<String[]> data = new ArrayList<>();
+		for (int i = sheet.getFirstRowNum(); i <= sheet.getLastRowNum(); i++) {
+			Row row = sheet.getRow(i);
+			if (row == null) continue;
+			int last = row.getLastCellNum();
+			String[] rowData = new String[last];
+			for (int j = 0; j < last; j++) {
+				Cell cell = row.getCell(j);
+				rowData[j] = cell == null ? null : cell.toString();
+			}
+			data.add(rowData);
+		}
+		return data;
+	}
+	
+	/**
+	 * Read Excel file to Object
+	 * 
+	 * The first row is used to defile fields.
+	 * 
+	 * Excel file Example:
+	 *  id    name    password
+	 *   1    test        pwd1
+	 *   2    jack        pwd2
+	 */
+	public static <T> List<T> readExcel(File file, int sheetIndex, Class<T> clazz) throws Exception {
+		List<T> result = new ArrayList<T>();
+		List<String[]> data = readExcel(file, sheetIndex);
+		if (data.size() < 2) { // At least 2 rows.
+			return result;
+		}
+		
+		Iterator<String[]> iter = data.iterator();
+		String[] firstRow = iter.next(); // First row, the column names, are mapped to the object fields
+		
+		Field[] fields = new Field[firstRow.length];
+		for (int i = 0; i < firstRow.length; i++) {
+			try {
+				Field field = clazz.getDeclaredField(firstRow[i]);
+				field.setAccessible(true);
+				fields[i] = field;
+			} catch (NoSuchFieldException e) {
+				LOG.info("NoSuchFieldException: {}", e.getMessage());
+			}
+		}
+			
+		while (iter.hasNext()) {
+			T obj = clazz.newInstance();
+			String[] row = iter.next();
+			for (int i = 0; i < row.length; i++) {
+				if (row[i] != null && fields[i] != null) {
+					if (fields[i].getType() == int.class || fields[i].getType() == Integer.class) {
+						fields[i].set(obj, Integer.parseInt(row[i]));
+					} else if (fields[i].getType() == String.class) {
+						fields[i].set(obj, row[i]);
+					}
+				}
+			}
+			result.add(obj);
+		}
+		return result;
 	}
 
 	public static String readFile(File file) throws IOException {
