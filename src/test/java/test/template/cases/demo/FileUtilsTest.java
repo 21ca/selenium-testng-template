@@ -1,6 +1,5 @@
 package test.template.cases.demo;
 import java.io.File;
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
@@ -73,8 +72,8 @@ public class FileUtilsTest {
 	
 	@SuppressWarnings("unchecked")
 	@Test
-	public void testReadYmal() throws IOException {
-		File file = new File("src/test/java/test/template/cases/demo/user.yml");;
+	public void testReadYmal() throws Exception {
+		File file = new File(FileUtilsTest.class.getResource("user.yml").toURI());;
 		List<User> users = FileUtils.readFromYmal(file, List.class);
 		Assert.assertEquals(users.size(), 2);
 		Assert.assertEquals(users.get(0).name, "name1");
@@ -85,13 +84,14 @@ public class FileUtilsTest {
 
 	@Test
 	public void testReadExcel() throws Exception {
-		List<String[]> data = FileUtils.readExcel(new File("src/test/java/test/template/cases/demo/test.xls"), 0);
+		List<String[]> data = FileUtils.readExcel(
+				new File(FileUtilsTest.class.getResource("test.xls").toURI()), 0);
 		System.out.println("Read xls");
 		for (String[] d : data) {
 			System.out.println(Arrays.toString(d));
 		}
 		
-		data = FileUtils.readExcel(new File("src/test/java/test/template/cases/demo/test.xlsx"), 0);
+		data = FileUtils.readExcel(new File(FileUtilsTest.class.getResource("test.xlsx").toURI()), 0);
 		System.out.println("Read xlsx");
 		for (String[] d : data) {
 			System.out.println(Arrays.toString(d));
@@ -100,7 +100,7 @@ public class FileUtilsTest {
 	
 	@Test
 	public void testReadExcelAsObject() throws Exception {
-		List<User> users = FileUtils.readExcel(new File("src/test/java/test/template/cases/demo/test.xls"), 0, User.class);
+		List<User> users = FileUtils.readExcel(new File(FileUtilsTest.class.getResource("test.xls").toURI()), 0, User.class);
 		Assert.assertEquals(users.size(), 2);
 		Assert.assertEquals(users.get(0).name, "name1");
 		Assert.assertEquals(users.get(0).password, "pwd1");
