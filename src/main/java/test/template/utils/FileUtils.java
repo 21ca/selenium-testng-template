@@ -3,6 +3,7 @@ package test.template.utils;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.StringReader;
 import java.io.StringWriter;
 import java.lang.reflect.Field;
@@ -13,6 +14,8 @@ import java.util.List;
 
 import javax.xml.bind.JAXB;
 
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -165,5 +168,19 @@ public class FileUtils {
 
 	public static void writeToFile(File file, String data) throws IOException {
 		org.apache.commons.io.FileUtils.writeStringToFile(file, data, UTF8);
+	}
+	
+	public static String readPdf(String file) throws Exception {
+		return readPdf(new FileInputStream(file));
+	}
+	
+	public static String readPdf(File file) throws Exception {
+		return readPdf(new FileInputStream(file));
+	}
+
+	public static String readPdf(InputStream is) throws Exception {
+		PDDocument document = PDDocument.load(is);
+		PDFTextStripper textStripper = new PDFTextStripper(); 
+		return textStripper.getText(document);
 	}
 }
