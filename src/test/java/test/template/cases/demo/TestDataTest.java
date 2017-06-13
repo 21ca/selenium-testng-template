@@ -4,9 +4,9 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import test.template.cases.base.NoBrowserBaseTestCase;
+import test.template.cases.base.BaseTestCase;
 
-public class TestDataTest extends NoBrowserBaseTestCase {
+public class TestDataTest extends BaseTestCase {
 	
 	@Test
 	public void testData() {

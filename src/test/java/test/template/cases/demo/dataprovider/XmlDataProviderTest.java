@@ -3,9 +3,9 @@ package test.template.cases.demo.dataprovider;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import test.template.cases.base.NoBrowserBaseTestCase;
+import test.template.cases.base.BaseTestCase;
 
-public class XmlDataProviderTest extends NoBrowserBaseTestCase{
+public class XmlDataProviderTest extends BaseTestCase{
 	
 	@DataProvider(name = "users")
 	public Object[][] users() throws Exception {

@@ -5,9 +5,9 @@ import java.util.Map;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import test.template.cases.base.NoBrowserBaseTestCase;
+import test.template.cases.base.BaseTestCase;
 
-public class YamlDataProviderTest extends NoBrowserBaseTestCase {
+public class YamlDataProviderTest extends BaseTestCase {
 
 	@DataProvider(name = "array")
 	public Object[][] array() throws Exception {
