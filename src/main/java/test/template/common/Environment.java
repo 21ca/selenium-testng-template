@@ -3,6 +3,8 @@ package test.template.common;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.commons.lang3.StringUtils;
+
 enum Environment {
 	DEFAULT(""),
 	STAGING("stg"),
@@ -39,7 +41,7 @@ enum Environment {
 				e.printStackTrace();
 			}
 			try {
-				if (env != null) {
+				if (StringUtils.isNotEmpty(env)) {
 					props.load(Environment.class.getResourceAsStream("/config_" + env + ".properties"));
 				}
 			} catch (IOException e) { 
