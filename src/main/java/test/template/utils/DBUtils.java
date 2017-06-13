@@ -63,6 +63,13 @@ public class DBUtils {
 		close(stm);
 		return result;
 	}
+	
+	public static final int update(Connection cn, String sql) throws Exception {
+		Statement stm = cn.createStatement();
+		int rows = stm.executeUpdate(sql);
+		close(stm);
+		return rows;
+	}
 
 	/*
 	 * public static final int update(Connection cn, String sql) throws
