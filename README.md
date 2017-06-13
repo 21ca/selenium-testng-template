@@ -14,3 +14,10 @@ Functions:
 2. Writing Logs
 3. Managing different Drivers
 4. Take screen shot when test failure
+5. Data provider
+6. Read test data from JSON, XML, Excel, Ymal and properties files.
+
+How to use:
+1. Create test case which extends BaseTestCase, or BaseWebTestCase.
+2. Create testng test suite xml files. Setting parameters url, browser and environment.
+3. Run testng cases!
