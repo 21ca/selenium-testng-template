@@ -9,7 +9,7 @@ public final class ClassPathResource {
 	public ClassPathResource(String path) {
 		this.path = path;
 	}
-	
+
 	public InputStream getInputStream() {
 		InputStream is = ClassPathResource.class.getResourceAsStream(path);
 		if (is == null) {
@@ -20,7 +20,7 @@ public final class ClassPathResource {
 		}
 		return is;
 	}
-	
+
 	public URL getURL() {
 		URL url = ClassPathResource.class.getResource(path);
 		if (url == null) {
