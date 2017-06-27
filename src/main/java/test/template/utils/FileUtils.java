@@ -51,11 +51,11 @@ public class FileUtils {
 		writeToFile(file, toJson(o));
 	}
 
-	public static <T> T readFromJson(InputStream is, Class<T> clazz) throws IOException {
+	public static <T> T readFromJson(InputStream is, Class<T> clazz) {
 		return fromJson(readInputStream(is), clazz);
 	}
 	
-	public static <T> T readFromJson(File file, Class<T> clazz) throws IOException {
+	public static <T> T readFromJson(File file, Class<T> clazz) {
 		return fromJson(readFile(file), clazz);
 	}
 
@@ -73,11 +73,11 @@ public class FileUtils {
 		writeToFile(file, toXml(o));
 	}
 
-	public static <T> T readFromXml(InputStream is, Class<T> clazz) throws IOException {
+	public static <T> T readFromXml(InputStream is, Class<T> clazz) {
 		return fromXml(readInputStream(is), clazz);
 	}
 	
-	public static <T> T readFromXml(File file, Class<T> clazz) throws IOException {
+	public static <T> T readFromXml(File file, Class<T> clazz) {
 		return fromXml(readFile(file), clazz);
 	}
 	
@@ -96,11 +96,11 @@ public class FileUtils {
 		writeToFile(file, toYmal(o));
 	}
 
-	public static <T> T readFromYmal(InputStream is, Class<T> clazz) throws IOException {
+	public static <T> T readFromYmal(InputStream is, Class<T> clazz) {
 		return fromYmal(readInputStream(is), clazz);
 	}
 	
-	public static <T> T readFromYmal(File file, Class<T> clazz) throws IOException {
+	public static <T> T readFromYmal(File file, Class<T> clazz) {
 		return fromYmal(readFile(file), clazz);
 	}
 
@@ -175,12 +175,20 @@ public class FileUtils {
 		return result;
 	}
 
-	public static String readFile(File file) throws IOException {
-		return org.apache.commons.io.FileUtils.readFileToString(file, UTF8);
+	public static String readFile(File file) {
+		try {
+			return org.apache.commons.io.FileUtils.readFileToString(file, UTF8);
+		} catch (Exception e) {
+			return null;
+		}
 	}
 	
-	public static String readInputStream(InputStream is) throws IOException {
-		return IOUtils.toString(is, UTF8);
+	public static String readInputStream(InputStream is) {
+		try {
+			return IOUtils.toString(is, UTF8);
+		} catch (Exception e) {
+			return null;
+		}
 	}
 
 	public static void writeToFile(File file, String data) throws IOException {
