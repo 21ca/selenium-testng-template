@@ -12,6 +12,7 @@ import java.util.Properties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
@@ -32,11 +33,11 @@ public abstract class BaseTestCase {
 	@Parameters({ "environment" })
 	public void setupEnvironment(@Optional String environment) throws Exception {
 		log.info("Setup Environment: " + environment);
-		loadTestData();
 		Config.setupEnvironment(environment);
 	}
 
-	private void loadTestData() throws IOException {
+	@BeforeClass
+	public void loadTestData() throws IOException {
 		Class<?> clazz = getClass();
 		List<Class<?>> classes = new ArrayList<>();
 		do {
