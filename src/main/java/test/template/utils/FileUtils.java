@@ -22,7 +22,6 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.jfree.util.Log;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
@@ -180,7 +179,7 @@ public class FileUtils {
 		try {
 			return org.apache.commons.io.FileUtils.readFileToString(file, UTF8);
 		} catch (Exception e) {
-			Log.error("Failed to read file", e);
+			LOG.error("Failed to read file", e);
 			return null;
 		}
 	}
@@ -189,7 +188,7 @@ public class FileUtils {
 		try {
 			return IOUtils.toString(is, UTF8);
 		} catch (Exception e) {
-			Log.error("Failed to read input stream", e);
+			LOG.error("Failed to read input stream", e);
 			return null;
 		}
 	}
