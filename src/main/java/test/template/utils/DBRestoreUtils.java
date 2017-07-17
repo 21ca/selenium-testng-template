@@ -67,7 +67,11 @@ public class DBRestoreUtils {
 		sb.append("SET ");
 		for (String key : line.keySet()) {
 			sb.append(key);
-			sb.append("='");
+			sb.append("=");
+			if (isTimeStamp(line.get(key))) {
+				sb.append("TIMESTAMP");
+			}
+			sb.append("'");
 			sb.append(line.get(key));
 			sb.append("', ");
 		}
@@ -75,6 +79,12 @@ public class DBRestoreUtils {
 		sb.append(whereCriteria);
 		LOG.info("Execute restore update: " + sb.toString());
 		return sb.toString();
+	}
+
+	//Oracle Time stamp 
+	private static boolean isTimeStamp(String value) {
+		return value.matches("\\d{4}-\\d{2}-\\d{2}\\s\\d{2}:\\d{2}:\\d{2}.*");
+
 	}
 
 	//querySql: SELECT A, B FROM table1 WHERE A=1...
