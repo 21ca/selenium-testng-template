@@ -66,14 +66,20 @@ public class DBRestoreUtils {
 		sb.append("UPDATE " + table + " ");
 		sb.append("SET ");
 		for (String key : line.keySet()) {
+			String value = line.get(key);
 			sb.append(key);
 			sb.append("=");
-			if (isTimeStamp(line.get(key))) {
-				sb.append("TIMESTAMP");
+			if (value == null) {
+				sb.append("NULL");
+				sb.append(", ");
+			} else {
+				if (isTimeStamp(value)) {
+					sb.append("TIMESTAMP");
+				}
+				sb.append("'");
+				sb.append(value);
+				sb.append("', ");
 			}
-			sb.append("'");
-			sb.append(line.get(key));
-			sb.append("', ");
 		}
 		sb.deleteCharAt(sb.lastIndexOf(",")); //delete last ","
 		sb.append(whereCriteria);
