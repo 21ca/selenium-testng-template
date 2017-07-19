@@ -34,10 +34,22 @@ public class SeleniumWaitUtils {
 	public static final WebElement waitForElement(final By by) {
 		return waitForCondition(Config.driver(), timeoutInSeconds, ExpectedConditions.presenceOfElementLocated(by));
 	}
+	
+	public static final WebElement waitForElement(WebElement parent, final By by) {
+		return waitForCondition(Config.driver(), timeoutInSeconds, 
+				ExpectedConditions.presenceOfNestedElementLocatedBy(parent, by));
+	}
 
 	public static final WebElement waitForElementClickable(final By by) {
 		return waitForCondition(Config.driver(), timeoutInSeconds, ExpectedConditions.elementToBeClickable(by));
 	}
+	
+	public static final WebElement waitForElementClickable(WebElement parent, final By by) {
+		WebElement element = waitForElement(parent, by);
+		return waitForCondition(Config.driver(), timeoutInSeconds, 
+				ExpectedConditions.elementToBeClickable(element));
+	}
+
 
 	public static final Alert waitForAlert() {
 		return waitForCondition(Config.driver(), timeoutInSeconds, ExpectedConditions.alertIsPresent());
