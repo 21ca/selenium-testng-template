@@ -1,6 +1,0 @@
-- !!test.template.cases.demo.dataprovider.User
-    name: name1
-    password: pwd1
-- !!test.template.cases.demo.dataprovider.User
-    name: name2
-    password: pwd2
