@@ -19,7 +19,7 @@ public final class TestngRetry implements IRetryAnalyzer {
 	private List<Object[]> paramsHasRetried = new ArrayList<>();
 	
 	@Override
-	public boolean retry(ITestResult result) {
+	public synchronized boolean retry(ITestResult result) {
 		//Failed and parameters has not retry.
 		if (!result.isSuccess() && !hasRetried(result.getParameters())) {
 			log.info("Retry method [" + result.getMethod().getMethodName() + "] with parameters:"
