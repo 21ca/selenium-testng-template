@@ -1,8 +1,8 @@
 package test.template.utils;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,29 +15,43 @@ import org.testng.ITestResult;
  */
 public final class TestngRetry implements IRetryAnalyzer {
 	private Logger log = LoggerFactory.getLogger(this.getClass());
-
-	private List<Object[]> paramsHasRetried = new ArrayList<>();
+	private Map<Integer, Integer> retryCounts = new HashMap<>();
+	private int retryCount = 2;
 	
 	@Override
 	public synchronized boolean retry(ITestResult result) {
 		//Failed and parameters has not retry.
-		if (!result.isSuccess() && !hasRetried(result.getParameters())) {
+		if (!result.isSuccess() && getRetriedCount(result) < retryCount) {
 			log.info("Retry method [" + result.getMethod().getMethodName() + "] with parameters:"
 					+ Arrays.toString(result.getParameters()));
 			result.setStatus(ITestResult.SKIP);
-			paramsHasRetried.add(result.getParameters());
+			increaseRetryCount(result);
 			return true;
 		}
 		return false;
 	}
 
-	private boolean hasRetried(Object[] parameters) {
-		for (Object[] p : paramsHasRetried) {
-			if (Arrays.equals(p, parameters)) {
-				return true;
-			}
-		}
-		return false;
+	private void increaseRetryCount(ITestResult result) {
+		int key = getKey(result);
+		retryCounts.put(key, getRetriedCount(result) + 1);
 	}
 
+	private int getKey(ITestResult result) {
+		Object[] params = result.getParameters();
+		if (params == null || params.length == 0) {
+			return 0;
+		} else {
+			int key = result.getMethod().hashCode();
+			for (Object param : params) {
+				key += param.hashCode();
+			}
+			return key;
+		}
+	}
+
+	private int getRetriedCount(ITestResult result) {
+		int key = getKey(result);
+		Integer count = retryCounts.get(key);
+		return count != null ? count : 0;
+	}
 }
