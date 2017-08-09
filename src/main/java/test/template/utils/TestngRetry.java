@@ -24,6 +24,7 @@ public final class TestngRetry implements IRetryAnalyzer {
 		if (!result.isSuccess() && !hasRetried(result.getParameters())) {
 			log.info("Retry method [" + result.getMethod().getMethodName() + "] with parameters:"
 					+ Arrays.toString(result.getParameters()));
+			result.setStatus(ITestResult.SKIP);
 			paramsHasRetried.add(result.getParameters());
 			return true;
 		}
