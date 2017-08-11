@@ -36,6 +36,9 @@ public final class TestngRetry implements IRetryAnalyzer {
 		retryCounts.put(key, getRetriedCount(result) + 1);
 	}
 
+	/**
+	 * Return a unique number based on the test method parameters.
+	 */
 	private int getKey(ITestResult result) {
 		Object[] params = result.getParameters();
 		if (params == null || params.length == 0) {
@@ -43,7 +46,7 @@ public final class TestngRetry implements IRetryAnalyzer {
 		} else {
 			int key = result.getMethod().hashCode();
 			for (Object param : params) {
-				key += param.hashCode();
+				key += FileUtils.toJson(param).hashCode();
 			}
 			return key;
 		}
