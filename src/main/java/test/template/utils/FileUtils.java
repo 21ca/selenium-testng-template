@@ -81,27 +81,27 @@ public class FileUtils {
 		return fromXml(readFile(file), clazz);
 	}
 	
-	public static String toYmal(Object o) {
-		Yaml ymal = new Yaml();
-		return ymal.dump(o);
+	public static String toYaml(Object o) {
+		Yaml yaml = new Yaml();
+		return yaml.dump(o);
 	}
 
 	@SuppressWarnings("unchecked")
-	public static <T> T fromYmal(String s, Class<T> clazz) {
-		Yaml ymal = new Yaml();
-		return (T) ymal.load(new StringReader(s));
+	public static <T> T fromYaml(String s, Class<T> clazz) {
+		Yaml yaml = new Yaml();
+		return (T) yaml.load(new StringReader(s));
 	}
 
-	public static void saveAsYmal(Object o, File file) throws IOException {
-		writeToFile(file, toYmal(o));
+	public static void saveAsYaml(Object o, File file) throws IOException {
+		writeToFile(file, toYaml(o));
 	}
 
-	public static <T> T readFromYmal(InputStream is, Class<T> clazz) {
-		return fromYmal(readInputStream(is), clazz);
+	public static <T> T readFromYaml(InputStream is, Class<T> clazz) {
+		return fromYaml(readInputStream(is), clazz);
 	}
 	
-	public static <T> T readFromYmal(File file, Class<T> clazz) {
-		return fromYmal(readFile(file), clazz);
+	public static <T> T readFromYaml(File file, Class<T> clazz) {
+		return fromYaml(readFile(file), clazz);
 	}
 
 	/**
@@ -110,7 +110,11 @@ public class FileUtils {
 	 * Each row is a String array.
 	 */
 	public static List<String[]> readExcel(File file, int sheetIndex) throws Exception {
-		Workbook workbook = WorkbookFactory.create(new FileInputStream(file));
+		return readExcel(new FileInputStream(file), sheetIndex);
+	}
+	
+	public static List<String[]> readExcel(InputStream is, int sheetIndex) throws Exception {
+		Workbook workbook = WorkbookFactory.create(is);
 		Sheet sheet = workbook.getSheetAt(sheetIndex);
 		List<String[]> data = new ArrayList<>();
 		for (int i = sheet.getFirstRowNum(); i <= sheet.getLastRowNum(); i++) {
@@ -138,6 +142,10 @@ public class FileUtils {
 	 *   2    jack        pwd2
 	 */
 	public static <T> List<T> readExcel(File file, int sheetIndex, Class<T> clazz) throws Exception {
+		return readExcel(new FileInputStream(file), sheetIndex, clazz);
+	}
+	
+	public static <T> List<T> readExcel(InputStream file, int sheetIndex, Class<T> clazz) throws Exception {
 		List<T> result = new ArrayList<T>();
 		List<String[]> data = readExcel(file, sheetIndex);
 		if (data.size() < 2) { // At least 2 rows.
@@ -209,5 +217,14 @@ public class FileUtils {
 		PDDocument document = PDDocument.load(is);
 		PDFTextStripper textStripper = new PDFTextStripper(); 
 		return textStripper.getText(document);
+	}
+
+	public static Object[] readFromExcel(InputStream is, Class<?> arrayType) throws IOException {
+		try {
+			List<?> data = readExcel(is, 0, arrayType);
+			return data.toArray();
+		} catch (Exception e) {
+			throw new IOException(e);
+		}
 	}
 }

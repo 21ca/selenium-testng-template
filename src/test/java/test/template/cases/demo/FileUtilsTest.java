@@ -51,10 +51,10 @@ public class FileUtilsTest {
 	@Test
 	public void testYmal() {
 		User user = new User("abc", "pwd");
-		String ymal = FileUtils.toYmal(user);
+		String ymal = FileUtils.toYaml(user);
 		System.out.println("Ymal String: " + ymal);
 
-		User user2 = FileUtils.fromYmal(ymal, User.class);
+		User user2 = FileUtils.fromYaml(ymal, User.class);
 		Assert.assertEquals(user.name, user2.name);
 		Assert.assertEquals(user.password, user2.password);
 	}
@@ -74,7 +74,7 @@ public class FileUtilsTest {
 	@Test
 	public void testReadYmal() throws Exception {
 		File file = new File(FileUtilsTest.class.getResource("user.yml").toURI());;
-		List<User> users = FileUtils.readFromYmal(file, List.class);
+		List<User> users = FileUtils.readFromYaml(file, List.class);
 		Assert.assertEquals(users.size(), 2);
 		Assert.assertEquals(users.get(0).name, "name1");
 		Assert.assertEquals(users.get(0).password, "pwd1");
