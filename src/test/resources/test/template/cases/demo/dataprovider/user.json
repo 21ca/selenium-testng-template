@@ -1,10 +1,14 @@
 [
 	{
 		"name": "name1",
-		"password": "pwd1"
+		"password": "Hello"
 	},
 	{
 		"name": "name2",
-		"password": "pwd2"
+		"password": "Hello"
+	},
+	{
+		"name": "name3",
+		"password": "Hello"
 	}
 ]
