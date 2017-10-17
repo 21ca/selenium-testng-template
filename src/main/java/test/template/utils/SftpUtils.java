@@ -40,7 +40,7 @@ public class SftpUtils {
 		}
 	}
 	
-	public static byte[] getBytes(String username, String password, String host, String filenpath) throws Exception {
+	public static byte[] getBytes(String username, String password, String host, String filepath) throws Exception {
 		Session session = null;
 		ChannelSftp channel = null;
 		JSch jsch = new JSch();
@@ -55,7 +55,7 @@ public class SftpUtils {
 			channel = (ChannelSftp) session.openChannel("sftp");
 			channel.connect();
 			ByteArrayOutputStream bos = new ByteArrayOutputStream();
-			channel.get(filenpath, bos);
+			channel.get(filepath, bos);
 			return bos.toByteArray();
 		} catch (Exception ex) {
 			throw ex;
