@@ -22,6 +22,7 @@ public class SftpUtils {
 			
 			// StrictHostKeyChecking: ask | yes | no
 			session.setConfig("StrictHostKeyChecking", "no");
+			session.setConfig("PreferredAuthentications", "publickey,keyboard-interactive,password");
 			session.connect();
 	
 			channel = (ChannelSftp) session.openChannel("sftp");
@@ -50,6 +51,7 @@ public class SftpUtils {
 	
 			// StrictHostKeyChecking: ask | yes | no
 			session.setConfig("StrictHostKeyChecking", "no");
+			session.setConfig("PreferredAuthentications", "publickey,keyboard-interactive,password");
 			session.connect();
 	
 			channel = (ChannelSftp) session.openChannel("sftp");
