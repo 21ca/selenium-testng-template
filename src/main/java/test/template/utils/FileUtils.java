@@ -18,6 +18,7 @@ import org.apache.commons.io.IOUtils;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -124,13 +125,25 @@ public class FileUtils {
 			String[] rowData = new String[last];
 			for (int j = 0; j < last; j++) {
 				Cell cell = row.getCell(j);
-				rowData[j] = cell == null ? null : cell.toString();
+				rowData[j] = cell == null ? null : getCellString(cell);
 			}
 			data.add(rowData);
 		}
 		return data;
 	}
-	
+	private static String getCellString(Cell cell) {
+		if (cell.getCellTypeEnum() == CellType.FORMULA) {
+			try {
+				return String.valueOf(cell.getNumericCellValue());
+			} catch (Exception e) {
+				return cell.getRichStringCellValue().toString(); 
+			}
+		} else {
+			return cell.toString();
+		} 
+	}
+
+
 	/**
 	 * Read Excel file to Object
 	 * 
