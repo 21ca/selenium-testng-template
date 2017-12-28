@@ -1,7 +1,6 @@
 package test.template.cases.demo;
 import java.sql.Connection;
 
-import org.junit.Ignore;
 import org.testng.annotations.Test;
 
 import test.template.cases.base.BaseTestCase;
@@ -10,8 +9,7 @@ import test.template.utils.DBUtils;
 
 public class DBUtilsTest extends BaseTestCase {
 
-	@Ignore
-	@Test
+	@Test(enabled = false)
 	public void test() throws Exception {
 		Connection cn = DBUtils.getConnection("oracle_");
 //		System.out.println(DBUtils.update(cn, "INSERT INTO mytable1(id) VALUES(9)"));
