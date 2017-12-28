@@ -11,8 +11,8 @@ public class RetryTest {
 	@Test(dataProvider="users", retryAnalyzer = TestngRetry.class)
 	public void test(String u) {
 		System.out.println("test" + u);
-		if (u.equals("b") || u.equals("c")) 
-			fail();
+//		if (u.equals("b") || u.equals("c")) 
+//			fail();
 	}
 	
 	@DataProvider(name = "users")
@@ -27,7 +27,7 @@ public class RetryTest {
 	
 	@Test(retryAnalyzer = TestngRetry.class)
 	public void test1() {
-		fail();
+//		fail();
 	}
 	
 
@@ -37,7 +37,7 @@ public class RetryTest {
 	
 	@Test(retryAnalyzer = TestngRetry.class)
 	public void test2() {
-		fail();
+//		fail();
 	}
 	
 
