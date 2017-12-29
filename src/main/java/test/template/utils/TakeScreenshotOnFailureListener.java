@@ -13,8 +13,8 @@ public class TakeScreenshotOnFailureListener extends TestListenerAdapter {
 	public void onTestFailure(ITestResult tr) {
 		super.onTestFailure(tr);
 		log.info("Test Fail: " + tr);
-		SeleniumUtils.takeScreenShot();
+		String file = SeleniumUtils.takeScreenShot();
+		tr.setAttribute("screenshot", SeleniumUtils.SCREENSHOT_PATH + file);
 	}
-
 
 }
