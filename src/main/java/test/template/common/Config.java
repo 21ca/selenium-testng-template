@@ -94,7 +94,7 @@ public final class Config {
 				FirefoxDriverManager.getInstance().useTaobaoMirror().version("0.14").setup();
 				driver = new FirefoxDriver();
 			} else if (browser.equalsIgnoreCase("chrome")) {
-				ChromeDriverManager.getInstance().useTaobaoMirror().setup();
+				ChromeDriverManager.getInstance().useTaobaoMirror().forceCache().setup();
 				driver = new ChromeDriver();
 			} else {
 				throw new IllegalArgumentException("Browser not support: " + browser);
