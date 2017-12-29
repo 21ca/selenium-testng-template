@@ -1,0 +1,32 @@
+<#assign passed=context.getPassedTests().size()>
+<#assign failed=context.getFailedTests().size()>
+<#assign skipped=context.getSkippedTests().size()>
+
+<p>${context.suite.name!} >> ${context.name!} (${passed} Passed, ${failed} Failed, ${skipped} Skipped)</p>
+
+<table border="1" cellspacing="0">
+<tr>
+	<td>Test Method</td>
+	<td>Exception</td>
+	<td>Screen Shot</td>
+</tr>
+<#list context.passedTests.allResults as test>
+<tr style="color: green">
+	<td>${test.method.realClass.canonicalName!}.${test.method.methodName!}()</td>
+	<td>PASSED</td>
+	<td></td>
+</tr>
+</#list>
+
+<#list context.failedTests.allResults as test>
+<#assign screenshot=test.getAttribute("screenshot")!>
+<#assign exception=test.getAttribute("exception")!>
+<#assign log=test.getAttribute("log")!>
+<tr>
+	<td>${test.method.realClass.canonicalName!}.${test.method.methodName!}()</td>
+	<td><pre>${log!}</pre><pre>${exception!}</pre></td>
+	<td><a href="${screenshot!}"><img src="${screenshot!}" style="max-width: 300" alt="NULL"></a></td>
+</tr>
+</#list>
+</table>
+
