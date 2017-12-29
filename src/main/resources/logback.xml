@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <configuration>
+	<appender name="CUSTOM" class="test.template.utils.MTLogAppender">
+		<encoder>
+			<pattern>%date [%level] [%logger{0}] %message%n</pattern>
+		</encoder>
+	</appender>
 	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
 		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
 			<level>DEBUG</level>
@@ -27,5 +32,6 @@
 		<level value="INFO" />
 		<appender-ref ref="CONSOLE" />
 		<appender-ref ref="FILE" />
+		<appender-ref ref="CUSTOM" />
 	</root>
 </configuration>
