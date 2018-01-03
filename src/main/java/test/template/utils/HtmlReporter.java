@@ -29,7 +29,7 @@ import test.template.common.Config;
 
 public class HtmlReporter extends TestListenerAdapter implements IReporter {
 	private static final Logger log = LoggerFactory.getLogger(HtmlReporter.class);
-	private static final String FAILED_REPORT_FILE = "failed.html";
+	private static final String FAILED_REPORT_FILE = "report.html";
 	private static final String REPORT_TEMPLATE = "/report_template.html";
 
 	private Set<ITestResult> results = new HashSet<>();
