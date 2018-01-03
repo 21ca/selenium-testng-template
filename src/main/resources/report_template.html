@@ -1,8 +1,8 @@
 <#assign passed=context.getPassedTests().size()>
 <#assign failed=context.getFailedTests().size()>
 <#assign skipped=context.getSkippedTests().size()>
-
-<p>${context.suite.name!} >> ${context.name!} (${passed} Passed, ${failed} Failed, ${skipped} Skipped)</p>
+<link href="style.css" rel="stylesheet" type="text/css" /> 
+<h4>${context.suite.name!} >> ${context.name!} (${passed} Passed, ${failed} Failed, ${skipped} Skipped)</h4>
 
 <table border="1" cellspacing="0">
 <tr>
@@ -14,8 +14,8 @@
 <#assign screenshot=test.getAttribute("screenshot")!>
 <#assign thumbScreenshot=test.getAttribute("thumbScreenshot")!>
 <#assign log=test.getAttribute("log")!>
-<tr style="color: green">
-	<td>${test.method.realClass.canonicalName!}.${test.method.methodName!}()</td>
+<tr>
+	<td class="passed">${test.method.realClass.canonicalName!}.${test.method.methodName!}()</td>
 	<td><pre>${log!}</pre></td>
 	<td><a href="${screenshot!}"><img src="${thumbScreenshot!}"></a></td>
 </tr>
@@ -26,7 +26,7 @@
 <#assign thumbScreenshot=test.getAttribute("thumbScreenshot")!>
 <#assign log=test.getAttribute("log")!>
 <tr>
-	<td>${test.method.realClass.canonicalName!}.${test.method.methodName!}()</td>
+	<td class="failed">${test.method.realClass.canonicalName!}.${test.method.methodName!}()</td>
 	<td><pre>${log!}</pre></td>
 	<td><a href="${screenshot!}"><img src="${thumbScreenshot!}"></a></td>
 </tr>
