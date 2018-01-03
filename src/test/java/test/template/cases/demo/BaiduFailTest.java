@@ -8,7 +8,7 @@ public class BaiduFailTest extends BaseWebTestCase {
 
 	@Test
 	public void goodTest() {
-
+		log.info("Test baidu good");
 	}
 
 	@Test
