@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<!-- <parameter name="url" value="http://192.168.202.136:4444" /> -->
+  	<parameter name="browser" value="chrome" />
+	<parameter name="environment" value="qa" />
+	<listeners>
+		<listener class-name="test.template.utils.SendEmailReporter"></listener>
+	</listeners>
+	
+	<test name="Test Baidu">
+		<classes>
+			<class name="test.template.cases.demo.BaiduFailTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Test Baidu Again">
+		<classes>
+			<class name="test.template.cases.demo.BaiduFailTest"></class>
+		</classes>
+	</test>	
+</suite>
