@@ -32,10 +32,8 @@ import com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource;
 import test.template.common.Config;
 import test.template.utils.FileUtils;
 import test.template.utils.HtmlReporter;
-import test.template.utils.MTLogBuffer;
-import test.template.utils.MTLogOnFailureListener;
 
-@Listeners({ MTLogOnFailureListener.class, HtmlReporter.class })
+@Listeners(HtmlReporter.class)
 public abstract class BaseTestCase {
 	private Properties testDataProps = new Properties();
 	protected Logger log = LoggerFactory.getLogger(this.getClass());
@@ -45,9 +43,8 @@ public abstract class BaseTestCase {
 	public void setupEnvironment(@Optional String environment) throws Exception {
 		log.info(Thread.currentThread() + " Setup Environment: " + environment);
 		Config.setupEnvironment(environment);
-		MTLogBuffer.clear();
 	}
-
+	
 	@BeforeClass
 	public void loadTestData() throws IOException {
 		Class<?> clazz = getClass();

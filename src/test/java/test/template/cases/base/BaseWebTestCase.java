@@ -5,16 +5,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import test.template.common.Config;
-import test.template.utils.HtmlReporter;
-import test.template.utils.MTLogOnFailureListener;
-import test.template.utils.TakeScreenshotOnFailureListener;
 
-@Listeners({ MTLogOnFailureListener.class, TakeScreenshotOnFailureListener.class, HtmlReporter.class })
 public abstract class BaseWebTestCase extends BaseTestCase {
 	protected Logger log = LoggerFactory.getLogger(this.getClass());
 
