@@ -7,25 +7,28 @@
 <table border="1" cellspacing="0">
 <tr>
 	<td>Test Method</td>
-	<td>Exception</td>
+	<td>Log</td>
 	<td>Screen Shot</td>
 </tr>
 <#list context.passedTests.allResults as test>
+<#assign screenshot=test.getAttribute("screenshot")!>
+<#assign thumbScreenshot=test.getAttribute("thumbScreenshot")!>
+<#assign log=test.getAttribute("log")!>
 <tr style="color: green">
 	<td>${test.method.realClass.canonicalName!}.${test.method.methodName!}()</td>
-	<td>PASSED</td>
-	<td></td>
+	<td><pre>${log!}</pre></td>
+	<td><a href="${screenshot!}"><img src="${thumbScreenshot!}"></a></td>
 </tr>
 </#list>
 
 <#list context.failedTests.allResults as test>
 <#assign screenshot=test.getAttribute("screenshot")!>
-<#assign exception=test.getAttribute("exception")!>
+<#assign thumbScreenshot=test.getAttribute("thumbScreenshot")!>
 <#assign log=test.getAttribute("log")!>
 <tr>
 	<td>${test.method.realClass.canonicalName!}.${test.method.methodName!}()</td>
-	<td><pre>${log!}</pre><pre>${exception!}</pre></td>
-	<td><a href="${screenshot!}"><img src="${screenshot!}" style="max-width: 300;width: 300" alt="NULL"></a></td>
+	<td><pre>${log!}</pre></td>
+	<td><a href="${screenshot!}"><img src="${thumbScreenshot!}"></a></td>
 </tr>
 </#list>
 </table>
