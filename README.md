@@ -7,6 +7,7 @@ It's based on:
 2. Maven
 3. TestNG
 4. Selenium 3
+5. logback
 
 
 Functions:
@@ -16,6 +17,7 @@ Functions:
 4. Take screen shot when test failure
 5. Data provider
 6. Read test data from JSON, XML, Excel, Ymal and properties files.
+7. Build HTML report, with separate log and screenshot in parallel mode.
 
 How to use:
 1. Create test case which extends BaseTestCase, or BaseWebTestCase.
