@@ -125,13 +125,13 @@ public class FileUtils {
 			String[] rowData = new String[last];
 			for (int j = 0; j < last; j++) {
 				Cell cell = row.getCell(j);
-				rowData[j] = cell == null ? null : getCellString(workbook, cell);
+				rowData[j] = cell == null ? null : getCellString(cell);
 			}
 			data.add(rowData);
 		}
 		return data;
 	}
-	private static String getCellString(Workbook workbook, Cell cell) {
+	private static String getCellString(Cell cell) {
 		if (cell.getCellTypeEnum() == CellType.FORMULA) {
 			try {
 				return String.valueOf(cell.getNumericCellValue());
