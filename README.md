@@ -22,4 +22,4 @@ Functions:
 How to use:
 1. Create test case which extends BaseTestCase, or BaseWebTestCase.
 2. Create testng test suite xml files. Setting parameters url, browser and environment.
-3. Run testng cases!
+3. Run testng cases with "mvn test -Dfile=your_suite.xml"!

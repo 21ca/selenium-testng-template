@@ -3,19 +3,16 @@ package test.template.utils;
 import java.security.SecureRandom;
 import java.security.cert.X509Certificate;
 
-import javax.net.ssl.HostnameVerifier;
-import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLSession;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
 import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.methods.HttpRequestBase;
 import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
@@ -33,24 +30,14 @@ public class HttpSession {
 			public void checkServerTrusted(X509Certificate[] chain, String authType) {
 			}
 		} };
-
-		HostnameVerifier hostnameVerifier = new HostnameVerifier() {
-			@Override
-			public boolean verify(String arg0, SSLSession arg1) {
-				return true;
-			}
-		};
-
 		try {
 			sc = SSLContext.getInstance("TLS");
 			sc.init(null, trustAllCerts, new SecureRandom());
-			HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
-			HttpsURLConnection.setDefaultHostnameVerifier(hostnameVerifier);
 		} catch (Exception e) {
 		}
 	}
 	
-	private CloseableHttpClient client = HttpClients.custom().setSSLContext(sc).build();
+	private HttpClient client = HttpClients.custom().setSSLContext(sc).build();
 	
 	private String execute(HttpRequestBase req) throws Exception {
 		HttpResponse resp = client.execute(req);
@@ -63,7 +50,12 @@ public class HttpSession {
 	
 	public String post(String url, String data) throws Exception {
 		HttpPost request = new HttpPost(url);
+		request.setHeader("Content-Type", "application/x-www-form-urlencoded");
 		request.setEntity(new StringEntity(data));
 		return execute(request);
+	}
+	
+	public static void main(String[] args) throws Exception {
+		System.out.println(new HttpSession().post("http://127.0.0.1:8000/", "as=ss"));
 	}
 }
