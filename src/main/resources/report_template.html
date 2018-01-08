@@ -16,7 +16,7 @@
 <#assign log=test.getAttribute("log")!>
 <tr>
 	<td class="passed">${test.method.realClass.canonicalName!}.${test.method.methodName!}()</td>
-	<td><pre>${log!}</pre></td>
+	<td class="log"><pre>${log!}</pre></td>
 	<td><a href="${screenshot!}"><img src="${thumbScreenshot!}"></a></td>
 </tr>
 </#list>
@@ -27,7 +27,7 @@
 <#assign log=test.getAttribute("log")!>
 <tr>
 	<td class="failed">${test.method.realClass.canonicalName!}.${test.method.methodName!}()</td>
-	<td><pre>${log!}</pre></td>
+	<td class="log"><pre>${log!}</pre></td>
 	<td><a href="${screenshot!}"><img src="${thumbScreenshot!}"></a></td>
 </tr>
 </#list>
