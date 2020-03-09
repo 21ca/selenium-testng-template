@@ -273,6 +273,12 @@ public final class SeleniumUtils {
 		xpath += "]";
 		return context.findElement(By.xpath(xpath));
 	}
+	
+	public static final List<WebElement> findElementsByText(SearchContext context, String tag, String text) {
+		String xpath = "//" + tag + "[text()='" + text + "']";
+		return context.findElements(By.xpath(xpath));
+	}
+	
 		
 	public static final WebElement getParent(WebElement element) {
 		return element.findElement(By.xpath(".."));

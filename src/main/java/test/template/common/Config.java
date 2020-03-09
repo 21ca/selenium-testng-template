@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
 
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import io.github.bonigarcia.wdm.FirefoxDriverManager;
-import io.github.bonigarcia.wdm.InternetExplorerDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 /**
  * Define Global settings
@@ -88,13 +88,13 @@ public final class Config {
 		} else { // Local browser
 			RemoteWebDriver driver = null;
 			if (browser.equalsIgnoreCase("ie")) {
-				InternetExplorerDriverManager.getInstance().useTaobaoMirror().setup();
+				WebDriverManager.iedriver().useMirror().setup();
 				driver = new InternetExplorerDriver();
 			} else if (browser.equalsIgnoreCase("firefox")) {
-				FirefoxDriverManager.getInstance().useTaobaoMirror().version("0.14").setup();
+				WebDriverManager.firefoxdriver().useMirror().setup();
 				driver = new FirefoxDriver();
 			} else if (browser.equalsIgnoreCase("chrome")) {
-				ChromeDriverManager.getInstance().useTaobaoMirror().forceCache().setup();
+				WebDriverManager.chromedriver().useMirror().setup();
 				driver = new ChromeDriver();
 			} else {
 				throw new IllegalArgumentException("Browser not support: " + browser);

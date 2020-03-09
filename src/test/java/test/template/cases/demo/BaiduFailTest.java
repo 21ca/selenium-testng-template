@@ -21,9 +21,9 @@ public class BaiduFailTest extends BaseWebTestCase {
 
 	@Test
 	public void failTest2() {
-		log.info("Test mstest");
-		driver().get("https://mstest.active.com");
-		log.info("Go to mstest OK");
+		log.info("Test baidu");
+		driver().get("https://www.baidu.com");
+		log.info("Go to baidu OK");
 		fail("I think it fails.");
 	}
 }

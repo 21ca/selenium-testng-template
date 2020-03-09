@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
@@ -22,12 +21,6 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-
-import com.paypal.selion.platform.dataprovider.DataProviderFactory;
-import com.paypal.selion.platform.dataprovider.DataResource;
-import com.paypal.selion.platform.dataprovider.SeLionDataProvider;
-import com.paypal.selion.platform.dataprovider.impl.InputStreamResource;
-import com.paypal.selion.platform.dataprovider.impl.XmlInputStreamResource;
 
 import test.template.common.Config;
 import test.template.utils.FileUtils;
@@ -82,33 +75,8 @@ public abstract class BaseTestCase {
 	protected String[] dataAsArray(String key) {
 		return data(key).split(",|;");
 	}
-
-	/**
-	 * Load data provider.
-	 * 
-	 * @param file
-	 *            The file could be in the same package with the test cases, or
-	 *            in class path, or a file path
-	 * @param type
-	 *            the file type. it could be "yaml", "excel", "json" or "xml"
-	 */
-	protected Object[][] dataProvider(String file, Class<?> cls, String type) throws IOException {
-		InputStream is = this.getClass().getResourceAsStream(file);
-		if (is == null) {
-			is = Thread.currentThread().getContextClassLoader().getResourceAsStream(file);
-		}
-		if (is == null) {
-			is = new FileInputStream(file);
-		}
-		DataResource resource = "xml".equalsIgnoreCase(type) ? new XmlInputStreamResource(is, cls, type)
-				: new InputStreamResource(is, cls, type);
-		SeLionDataProvider dataProvider = DataProviderFactory.getDataProvider(resource);
-		Object[][] data = dataProvider.getAllData();
-		log.info("Load data provider: \n" + Arrays.deepToString(data));
-		return data;
-	}
 	
-	protected Object[][] mydataProvider(String file, Class<?> cls, String type) throws Exception {
+	protected Object[][] dataProvider(String file, Class<?> cls, String type) throws Exception {
 		InputStream is = this.getClass().getResourceAsStream(file);
 		if (is == null) {
 			is = Thread.currentThread().getContextClassLoader().getResourceAsStream(file);
